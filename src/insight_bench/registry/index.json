@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {
+      "benchmark_id": "insight-bench-v1",
+      "manifest_path": "insight-bench-v1/1.0.0/manifest.json",
+      "sha256": "55d4c77276a6a5bcade344594be705f38aed1ac14b684de38dc393e6c7e3fb60",
+      "version": "1.0.0"
+    }
+  ],
+  "registry_version": "1.0.0",
+  "schema_version": "1.0.0"
+}

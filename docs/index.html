@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INSIGHT-Bench</title>
+<meta name="description" content="INSIGHT-Bench: object-goal navigation evaluated in NVIDIA Isaac Sim. 1,097 episodes, 210 held-out scenes, five instruction types by five scene classes.">
+<meta property="og:title" content="INSIGHT-Bench">
+<meta property="og:description" content="Object-goal navigation evaluated in NVIDIA Isaac Sim. 1,097 episodes, 210 held-out scenes.">
+<!-- The radar is not rendered on the page; it is here only as the link-preview
+     card, which is the sole reason static/images/insight_radar.png still ships. -->
+<meta property="og:image" content="static/images/insight_radar.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%231f5fd8%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%275%27 fill=%27white%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="static/css/site.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>INSIGHT-Bench</h1>
+    <p class="tagline">Object-goal navigation in NVIDIA Isaac Sim, scored so that a failure tells you <em>which</em> ability failed.</p>
+    <p class="facts"><strong>1,097</strong> episodes &middot; <strong>210</strong> held-out scenes &middot; <strong>5&times;5</strong> instruction &times; scene taxonomy &middot; forward RGB only</p>
+    <nav class="buttons">
+      <a class="btn primary" href="#leaderboard">Leaderboard</a>
+      <a class="btn" href="https://arxiv.org/abs/2608.30935">arXiv</a>
+      <a class="btn" href="https://github.com/lightorigins/light-insight-bench">Code</a>
+      <a class="btn" href="https://huggingface.co/datasets/LightOriginsHQ/light-insight-bench">&#129303; Dataset</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="about">
+  <h2>What it measures</h2>
+  <p>Object-goal navigation benchmarks usually report one success rate. When a model fails, that number does not say
+  whether it misunderstood the goal, missed a spatial relation, or simply could not navigate the scene.</p>
+  <p>INSIGHT-Bench separates those factors. Every episode carries two labels, fixed when it is built, and together they
+  turn one success rate into a diagnosis.</p>
+  <figure>
+    <img src="static/images/insight-taxonomy-scene.svg" alt="The five scene classes: Apartment, House, Commercial, Institution, Outdoor">
+    <img src="static/images/insight-taxonomy-instruction.svg" alt="The five instruction types: Base, Direction, Relation, Extremum, Ordinal">
+  </figure>
+  <p><strong>Scene class</strong> is functional layout, independent of the source dataset: compact rooms with frequent
+  doors (Apartment), longer multi-room topologies (House), open floor plans with repeated instances (Commercial),
+  corridors and repeated workspaces (Institution), open traversable regions with sparse landmarks (Outdoor).
+  <strong>Instruction type</strong> is the mechanism that resolves the goal: a uniquely nameable target
+  (<code>Base</code>), an egocentric bearing (<code>Direction</code>), a unique anchor object (<code>Relation</code>),
+  an argmin or argmax such as the nearest or leftmost (<code>Extremum</code>), a ranked instance of an ordered set
+  (<code>Ordinal</code>). Rows of the 5&times;5 breakdown expose sensitivity to layout, columns isolate the language
+  mechanism, and single cells expose the interaction the aggregate hides.</p>
+
+  <div class="tablewrap">
+  <table class="grid">
+    <thead><tr><th>Scene type</th><th>Scenes</th><th>Episodes</th><th>Base</th><th>Direction</th><th>Relation</th><th>Extremum</th><th>Ordinal</th></tr></thead>
+    <tbody>
+      <tr><td>Apartment</td><td>120</td><td>239</td><td>50</td><td>50</td><td>50</td><td>50</td><td>39</td></tr>
+      <tr><td>House</td><td>61</td><td>216</td><td>50</td><td>50</td><td>31</td><td>50</td><td>35</td></tr>
+      <tr><td>Commercial</td><td>10</td><td>195</td><td>42</td><td>40</td><td>30</td><td>50</td><td>33</td></tr>
+      <tr><td>Institution</td><td>11</td><td>219</td><td>50</td><td>49</td><td>32</td><td>50</td><td>38</td></tr>
+      <tr><td>Outdoor</td><td>8</td><td>228</td><td>45</td><td>50</td><td>50</td><td>50</td><td>33</td></tr>
+      <tr class="total"><td>Total</td><td>210</td><td>1,097</td><td>237</td><td>239</td><td>193</td><td>250</td><td>178</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section id="protocol">
+  <h2>One protocol for every policy</h2>
+  <p>Every policy is driven through the same deployment protocol. Nothing is per-model.</p>
+  <div class="tablewrap">
+  <table class="spec">
+    <tbody>
+      <tr><th>Observation</th><td>forward-facing monocular RGB, 480&times;270 &mdash; no depth, no odometry, no panorama</td></tr>
+      <tr><th>Field of view</th><td>120&deg; horizontal</td></tr>
+      <tr><th>Camera height</th><td>1.0 m</td></tr>
+      <tr><th>Action budget</th><td>300 actions per episode</td></tr>
+      <tr><th>Success radius</th><td>2.0 m indoor, 3.0 m outdoor</td></tr>
+      <tr><th>Success condition</th><td>stop inside the radius <strong>and</strong> the target lies inside the 120&deg; field of view of the final frame</td></tr>
+      <tr><th>Metrics</th><td>SR, SPL, terminal NE</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section id="leaderboard">
+  <h2>Leaderboard</h2>
+  <p class="sub" id="lb-caption"></p>
+  <div class="controls" id="lb-controls"></div>
+  <div class="tablewrap">
+    <table class="grid lb" id="lb">
+      <thead id="lb-head"></thead>
+      <tbody id="lb-body"></tbody>
+    </table>
+  </div>
+  <p class="legend">Success rate in percent, over the full 1,097-episode split. <strong>Bold</strong> is best in the
+  column, <u>underlined</u> is second best, computed over every policy whether or not its column is showing. Click a
+  column header to sort. The five scene-class columns are folded away by default &mdash; open them for the full
+  eleven-column breakdown.</p>
+  <p class="legend"><span class="tagdemo">published</span> is a number reported in the paper and not recomputed here.
+  <span class="tagdemo verified">verified</span> was computed by this repository from an evidence pack that passed
+  <code>insight-bench verify</code>. A cell divides by the episodes of that type that were measurable; Avg. divides by
+  the whole 1,097-episode split. At most five episodes may fail to run before a submission is refused.
+  See <a href="https://github.com/lightorigins/light-insight-bench/blob/main/SUBMISSION.md">SUBMISSION.md</a> to add a
+  row.</p>
+</section>
+
+<section id="submission">
+  <h2>Submission</h2>
+  <p><strong>A submission is a pull request, and it carries no scores.</strong> It points at an evidence pack, and CI
+  reads the numbers out of the pack itself &mdash; so nothing on this table depends on a number anybody typed.</p>
+
+  <ol class="steps">
+    <li><strong>Evaluate all 1,097 episodes.</strong> Every <code>scripts/eval_*.sh</code> builds the evidence pack and
+    prints the zip. How to install the harness and run a model is in the
+    <a href="https://github.com/lightorigins/light-insight-bench">repository README</a>; the episodes are on the Hub as
+    <a href="https://huggingface.co/datasets/LightOriginsHQ/light-insight-bench"><code>LightOriginsHQ/light-insight-bench</code></a>.</li>
+    <li><strong>Check it locally:</strong> <code>insight-bench verify runs/&lt;run&gt;/evidence-pack.zip</code> must
+    exit <code>0</code>. That is the same check CI repeats, on the same bytes.</li>
+    <li><strong>Host the pack</strong> somewhere public and stable &mdash; a Hugging Face repository, a GitHub release
+    asset, Zenodo. It must be fetchable over <code>https</code> without a login, and it must stay there: the pack is
+    the evidence for the row.</li>
+    <li><strong>Open a pull request</strong> adding one file, <code>submissions/&lt;your-method&gt;.json</code>:</li>
+  </ol>
+
+<pre><code>{
+  "method": "Your-Model",
+  "code": "https://github.com/you/your-model",
+  "weights": "https://huggingface.co/you/your-model",
+  "provenance": "evidence-pack",
+  "evidence": {
+    "url": "https://.../evidence-pack.zip",
+    "sha256": "&lt;the digest of that file&gt;"
+  }
+}</code></pre>
+
+  <p>CI then fetches the pack, refuses it unless the digest matches what you declared, runs <code>verify</code>, checks
+  the run is <code>insight-bench-v1@1.0.0</code> over all 1,097 episodes, scores it, and prints the row it earns. At
+  most five episodes may fail to evaluate &mdash; an unevaluated episode leaves its denominator, so a larger allowance
+  would let dropping the hard ones buy a score. Green means a maintainer can merge without re-running anything, and
+  merging rebuilds this table.</p>
+
+  <p>The full contract &mdash; every refusal CI applies, how each cell is computed, and what this board does and does
+  not prove &mdash; is in <a href="https://github.com/lightorigins/light-insight-bench/blob/main/SUBMISSION.md">SUBMISSION.md</a>. Rows marked <span class="tagdemo">published</span> are
+  transcribed from their papers and carry no pack, which is why they are marked differently from a
+  <span class="tagdemo verified">verified</span> run.</p>
+</section>
+
+<section id="citation">
+  <h2>Citation</h2>
+  <pre><code id="bib">@misc{lightnav0,
+  title  = {LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation},
+  author = {Light Origins Team},
+  year   = {2026},
+  eprint = {2608.30935},
+  archivePrefix = {arXiv},
+  url    = {https://arxiv.org/abs/2608.30935}
+}</code></pre>
+  <button class="btn" id="copybib" type="button">Copy BibTeX</button>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+  <p>INSIGHT-Bench &middot; annotations CC BY 4.0, code Apache-2.0 &middot; scene assets keep their own upstream licences.</p>
+</div></footer>
+
+<script src="static/js/leaderboard.js"></script>
+</body>
+</html>

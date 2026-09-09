@@ -1,0 +1,122 @@
+{
+  "$defs": {
+    "AdapterAction": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "parameters": {
+          "additionalProperties": true,
+          "title": "Parameters",
+          "type": "object"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "AdapterAction",
+      "type": "object"
+    },
+    "AdapterDescriptor": {
+      "additionalProperties": false,
+      "properties": {
+        "adapter_id": {
+          "title": "Adapter Id",
+          "type": "string"
+        },
+        "deterministic": {
+          "default": false,
+          "title": "Deterministic",
+          "type": "boolean"
+        },
+        "metadata": {
+          "additionalProperties": true,
+          "title": "Metadata",
+          "type": "object"
+        },
+        "model_id": {
+          "title": "Model Id",
+          "type": "string"
+        },
+        "protocol_version": {
+          "const": "1.0.0",
+          "default": "1.0.0",
+          "title": "Protocol Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "adapter_id",
+        "model_id"
+      ],
+      "title": "AdapterDescriptor",
+      "type": "object"
+    }
+  },
+  "$id": "https://www.lightorigins.com/schemas/insight-bench/v1/adapter-response.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "actions": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/AdapterAction"
+      },
+      "title": "Actions",
+      "type": "array"
+    },
+    "adapter": {
+      "$ref": "#/$defs/AdapterDescriptor"
+    },
+    "error": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Error"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "title": "Metadata",
+      "type": "object"
+    },
+    "output": {
+      "default": "",
+      "title": "Output",
+      "type": "string"
+    },
+    "request_id": {
+      "pattern": "^req-[0-9a-f]{16}$",
+      "title": "Request Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0",
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "success",
+        "error"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "request_id",
+    "adapter",
+    "status"
+  ],
+  "title": "AdapterResponse",
+  "type": "object"
+}

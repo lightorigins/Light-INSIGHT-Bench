@@ -1,0 +1,26 @@
+{
+  "method": "NaVid",
+  "code": "https://github.com/jzhzhang/NaVid-VLN-CE",
+  "weights": "https://huggingface.co/Jzzhang/NaVid",
+  "provenance": "published",
+  "reference": "arXiv:2608.30935",
+  "metrics": {
+    "instruction": {
+      "Base": 37.6,
+      "Direction": 29.7,
+      "Relation": 18.7,
+      "Extremum": 22.4,
+      "Ordinal": 24.2
+    },
+    "scene": {
+      "Apartment": 37.7,
+      "House": 39.8,
+      "Commercial": 24.6,
+      "Institution": 18.3,
+      "Outdoor": 13.6
+    },
+    "avg": 26.9
+  },
+  "torch": "2.0.1",
+  "python": "3.8"
+}

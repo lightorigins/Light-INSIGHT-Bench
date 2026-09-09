@@ -1,0 +1,226 @@
+{
+  "benchmark": "INSIGHT-Bench",
+  "version": "v1",
+  "coordinate": "insight-bench-v1@1.0.0",
+  "episodes": 1097,
+  "scenes": 210,
+  "metric": "success rate (%)",
+  "reference": "LightNav-0",
+  "note": "Published measurement. Success rate over the full 1,097-episode split, grouped by instruction type and by scene class.",
+  "updated": "2026-09-08",
+  "instruction_types": [
+    "Base",
+    "Direction",
+    "Relation",
+    "Extremum",
+    "Ordinal"
+  ],
+  "scene_classes": [
+    "Apartment",
+    "House",
+    "Commercial",
+    "Institution",
+    "Outdoor"
+  ],
+  "rows": [
+    {
+      "method": "LightNav-0",
+      "code": "https://github.com/lightorigins/LightNav-0",
+      "weights": "https://huggingface.co/LightOriginsHQ/LightNav-0",
+      "torch": null,
+      "python": null,
+      "provenance": "published",
+      "instruction": {
+        "Base": 45.1,
+        "Direction": 57.7,
+        "Relation": 37.8,
+        "Extremum": 37.2,
+        "Ordinal": 38.2
+      },
+      "scene": {
+        "Apartment": 61.1,
+        "House": 50.5,
+        "Commercial": 42.1,
+        "Institution": 29.2,
+        "Outdoor": 34.2
+      },
+      "avg": 43.7,
+      "reference": "arXiv:2608.30935",
+      "rank": 1
+    },
+    {
+      "method": "JanusVLN",
+      "code": "https://github.com/MIV-XJTU/JanusVLN",
+      "weights": "https://modelscope.cn/models/misstl/JanusVLN_Extra",
+      "torch": "2.5.0",
+      "python": "3.9",
+      "provenance": "published",
+      "instruction": {
+        "Base": 32.5,
+        "Direction": 28.5,
+        "Relation": 28.5,
+        "Extremum": 22.0,
+        "Ordinal": 25.8
+      },
+      "scene": {
+        "Apartment": 39.7,
+        "House": 35.2,
+        "Commercial": 26.7,
+        "Institution": 18.3,
+        "Outdoor": 16.7
+      },
+      "avg": 27.4,
+      "reference": "arXiv:2608.30935",
+      "rank": 2
+    },
+    {
+      "method": "NaVid",
+      "code": "https://github.com/jzhzhang/NaVid-VLN-CE",
+      "weights": "https://huggingface.co/Jzzhang/NaVid",
+      "torch": "2.0.1",
+      "python": "3.8",
+      "provenance": "published",
+      "instruction": {
+        "Base": 37.6,
+        "Direction": 29.7,
+        "Relation": 18.7,
+        "Extremum": 22.4,
+        "Ordinal": 24.2
+      },
+      "scene": {
+        "Apartment": 37.7,
+        "House": 39.8,
+        "Commercial": 24.6,
+        "Institution": 18.3,
+        "Outdoor": 13.6
+      },
+      "avg": 26.9,
+      "reference": "arXiv:2608.30935",
+      "rank": 3
+    },
+    {
+      "method": "Uni-NaVid",
+      "code": "https://github.com/jzhzhang/Uni-NaVid",
+      "weights": "https://huggingface.co/Jzzhang/Uni-NaVid",
+      "torch": "2.0.1",
+      "python": "3.10",
+      "provenance": "published",
+      "instruction": {
+        "Base": 32.9,
+        "Direction": 29.3,
+        "Relation": 21.8,
+        "Extremum": 16.8,
+        "Ordinal": 19.7
+      },
+      "scene": {
+        "Apartment": 39.3,
+        "House": 28.7,
+        "Commercial": 23.1,
+        "Institution": 15.5,
+        "Outdoor": 14.0
+      },
+      "avg": 24.3,
+      "reference": "arXiv:2608.30935",
+      "rank": 4
+    },
+    {
+      "method": "TAMP-Nav",
+      "code": "https://github.com/ZJU-OmniAI/Embodied-Navigator",
+      "weights": "https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO",
+      "torch": "2.6.0",
+      "python": "3.10",
+      "provenance": "published",
+      "instruction": {
+        "Base": 18.1,
+        "Direction": 14.2,
+        "Relation": 17.6,
+        "Extremum": 10.8,
+        "Ordinal": 20.8
+      },
+      "scene": {
+        "Apartment": 26.8,
+        "House": 18.5,
+        "Commercial": 15.9,
+        "Institution": 9.6,
+        "Outdoor": 8.3
+      },
+      "avg": 16.0,
+      "reference": "arXiv:2608.30935",
+      "rank": 5
+    },
+    {
+      "method": "InternVLA-N1",
+      "code": "https://github.com/InternRobotics/InternNav",
+      "weights": "https://huggingface.co/InternRobotics/InternVLA-N1-DualVLN",
+      "torch": "2.6.0",
+      "python": "3.9",
+      "provenance": "published",
+      "instruction": {
+        "Base": 18.1,
+        "Direction": 13.0,
+        "Relation": 9.8,
+        "Extremum": 8.4,
+        "Ordinal": 7.9
+      },
+      "scene": {
+        "Apartment": 12.1,
+        "House": 19.0,
+        "Commercial": 12.3,
+        "Institution": 7.8,
+        "Outdoor": 7.5
+      },
+      "avg": 11.7,
+      "reference": "arXiv:2608.30935",
+      "rank": 6
+    },
+    {
+      "method": "StreamVLN",
+      "code": "https://github.com/InternRobotics/StreamVLN",
+      "weights": "https://huggingface.co/mengwei0427/StreamVLN_Video_qwen_1_5_r2r_rxr_envdrop_scalevln_v1_3",
+      "torch": "2.1.2",
+      "python": "3.9",
+      "provenance": "published",
+      "instruction": {
+        "Base": 15.6,
+        "Direction": 9.6,
+        "Relation": 14.5,
+        "Extremum": 8.0,
+        "Ordinal": 10.7
+      },
+      "scene": {
+        "Apartment": 19.7,
+        "House": 15.7,
+        "Commercial": 12.8,
+        "Institution": 4.1,
+        "Outdoor": 5.3
+      },
+      "avg": 11.6,
+      "reference": "arXiv:2608.30935",
+      "rank": 7
+    }
+  ],
+  "reproduction": {
+    "method": "LightNav-0",
+    "by": "this repository",
+    "episodes": 1097,
+    "instruction": {
+      "Base": 50.2,
+      "Direction": 55.6,
+      "Relation": 41.7,
+      "Extremum": 34.4,
+      "Ordinal": 42.1
+    },
+    "scene": {
+      "Apartment": 65.7,
+      "House": 51.9,
+      "Commercial": 39.0,
+      "Institution": 31.7,
+      "Outdoor": 34.6
+    },
+    "avg": 44.9,
+    "spl": 0.431,
+    "ne_m": 3.91,
+    "mean_stop_step": 57.3,
+    "note": "Released LightNav-0 checkpoint over all 1,097 episodes on one L20, episode digest matching the pin. Every cell within 5.1 points of the published one, the aggregate within 1.2."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "method": "Uni-NaVid",
+  "code": "https://github.com/jzhzhang/Uni-NaVid",
+  "weights": "https://huggingface.co/Jzzhang/Uni-NaVid",
+  "provenance": "published",
+  "reference": "arXiv:2608.30935",
+  "metrics": {
+    "instruction": {
+      "Base": 32.9,
+      "Direction": 29.3,
+      "Relation": 21.8,
+      "Extremum": 16.8,
+      "Ordinal": 19.7
+    },
+    "scene": {
+      "Apartment": 39.3,
+      "House": 28.7,
+      "Commercial": 23.1,
+      "Institution": 15.5,
+      "Outdoor": 14.0
+    },
+    "avg": 24.3
+  },
+  "torch": "2.0.1",
+  "python": "3.10"
+}

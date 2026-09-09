@@ -1,0 +1,26 @@
+{
+  "method": "JanusVLN",
+  "code": "https://github.com/MIV-XJTU/JanusVLN",
+  "weights": "https://modelscope.cn/models/misstl/JanusVLN_Extra",
+  "provenance": "published",
+  "reference": "arXiv:2608.30935",
+  "metrics": {
+    "instruction": {
+      "Base": 32.5,
+      "Direction": 28.5,
+      "Relation": 28.5,
+      "Extremum": 22.0,
+      "Ordinal": 25.8
+    },
+    "scene": {
+      "Apartment": 39.7,
+      "House": 35.2,
+      "Commercial": 26.7,
+      "Institution": 18.3,
+      "Outdoor": 16.7
+    },
+    "avg": 27.4
+  },
+  "torch": "2.5.0",
+  "python": "3.9"
+}

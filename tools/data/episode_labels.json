@@ -1,0 +1,4395 @@
+{
+"episodes": 1097,
+"labels": {
+"objnav_00013-sfbj7jspYWj_4": [
+"Direction",
+"House"
+],
+"objnav_00013-sfbj7jspYWj_5": [
+"Direction",
+"House"
+],
+"objnav_00016-qk9eeNeR4vw_6": [
+"Direction",
+"Apartment"
+],
+"objnav_00016-qk9eeNeR4vw_7": [
+"Base",
+"Apartment"
+],
+"objnav_00018-as8Y8AYx6yW_10": [
+"Direction",
+"House"
+],
+"objnav_00018-as8Y8AYx6yW_9": [
+"Direction",
+"House"
+],
+"objnav_00019-AfKhsVmG8L4_13": [
+"Direction",
+"Apartment"
+],
+"objnav_00019-AfKhsVmG8L4_14": [
+"Base",
+"Apartment"
+],
+"objnav_00019-AfKhsVmG8L4_16": [
+"Direction",
+"Apartment"
+],
+"objnav_00054-6BReaxZUoMg_23": [
+"Base",
+"Apartment"
+],
+"objnav_00055-HxmXPBbFCkH_29": [
+"Base",
+"Apartment"
+],
+"objnav_00078-nJTPfwbAj4S_33": [
+"Base",
+"Apartment"
+],
+"objnav_00083-16tymPtM7uS_35": [
+"Base",
+"House"
+],
+"objnav_00083-16tymPtM7uS_37": [
+"Direction",
+"House"
+],
+"objnav_00083-16tymPtM7uS_38": [
+"Base",
+"House"
+],
+"objnav_00104-KJxdMPgweZG_42": [
+"Direction",
+"Apartment"
+],
+"objnav_00105-xWvSkKiWQpC_43": [
+"Direction",
+"House"
+],
+"objnav_00105-xWvSkKiWQpC_44": [
+"Direction",
+"House"
+],
+"objnav_00108-oStKKWkQ1id_47": [
+"Base",
+"Apartment"
+],
+"objnav_00108-oStKKWkQ1id_48": [
+"Direction",
+"Apartment"
+],
+"objnav_00117-2NwLiyeKcrK_49": [
+"Direction",
+"Commercial"
+],
+"objnav_00117-2NwLiyeKcrK_50": [
+"Direction",
+"Commercial"
+],
+"objnav_00117-2NwLiyeKcrK_51": [
+"Base",
+"Commercial"
+],
+"objnav_00123-C3ifY177Ldq_54": [
+"Direction",
+"House"
+],
+"objnav_00131-bZsfeA9uRk7_56": [
+"Direction",
+"House"
+],
+"objnav_00182-qWP3MMQM3eJ_59": [
+"Base",
+"House"
+],
+"objnav_00182-qWP3MMQM3eJ_60": [
+"Direction",
+"House"
+],
+"objnav_00197-x4LVLSsYWcV_68": [
+"Direction",
+"Apartment"
+],
+"objnav_00241-h6nwVLpAKQz_73": [
+"Base",
+"House"
+],
+"objnav_00241-h6nwVLpAKQz_74": [
+"Direction",
+"House"
+],
+"objnav_00253-HjxjHvpdeoM_78": [
+"Direction",
+"Apartment"
+],
+"objnav_00270-bDTsgcSK5Qr_89": [
+"Direction",
+"House"
+],
+"objnav_00285-QKGMrurUVbk_91": [
+"Base",
+"Apartment"
+],
+"objnav_00297-jGdNyKqGZJw_95": [
+"Direction",
+"Apartment"
+],
+"objnav_00298-by8SK9u18S8_99": [
+"Base",
+"House"
+],
+"objnav_00306-Y4L8fjz2yH7_100": [
+"Direction",
+"House"
+],
+"objnav_00306-Y4L8fjz2yH7_101": [
+"Direction",
+"House"
+],
+"objnav_00306-Y4L8fjz2yH7_102": [
+"Base",
+"House"
+],
+"objnav_00316-LqsTKpxKVP2_106": [
+"Direction",
+"House"
+],
+"objnav_00316-LqsTKpxKVP2_107": [
+"Direction",
+"House"
+],
+"objnav_00323-yHLr6bvWsVm_109": [
+"Base",
+"Apartment"
+],
+"objnav_00332-cWfRoQnzNiM_111": [
+"Base",
+"Apartment"
+],
+"objnav_00338-rK4jPRTUw15_113": [
+"Base",
+"Apartment"
+],
+"objnav_00351-QxfX5te1gFu_114": [
+"Base",
+"Apartment"
+],
+"objnav_00364-tEafuWwhhwr_116": [
+"Direction",
+"House"
+],
+"objnav_00367-RHdkyzXFp1k_117": [
+"Direction",
+"House"
+],
+"objnav_00367-RHdkyzXFp1k_118": [
+"Direction",
+"House"
+],
+"objnav_00379-58fkJMgLopt_120": [
+"Base",
+"House"
+],
+"objnav_00391-3UDjdrwcqMb_121": [
+"Direction",
+"Apartment"
+],
+"objnav_00391-3UDjdrwcqMb_122": [
+"Base",
+"Apartment"
+],
+"objnav_00403-t3t9ofFLcFU_125": [
+"Direction",
+"Commercial"
+],
+"objnav_00404-QN2dRqwd84J_126": [
+"Base",
+"Apartment"
+],
+"objnav_00414-77mMEyxhs44_127": [
+"Direction",
+"House"
+],
+"objnav_00426-X9fRPGxw1jS_129": [
+"Base",
+"Apartment"
+],
+"objnav_00429-UZ5rYGiwQgW_131": [
+"Direction",
+"Institution"
+],
+"objnav_00448-tAQTHnJ7n72_133": [
+"Direction",
+"Apartment"
+],
+"objnav_00480-RrfVebebfWf_135": [
+"Base",
+"Apartment"
+],
+"objnav_00499-q6tn1ZjSsG4_139": [
+"Direction",
+"Apartment"
+],
+"objnav_00505-ZwnLFNzxASM_141": [
+"Direction",
+"House"
+],
+"objnav_00512-WZDzPCybQvS_144": [
+"Base",
+"House"
+],
+"objnav_00512-WZDzPCybQvS_146": [
+"Direction",
+"House"
+],
+"objnav_00527-HPrcqBkKzuy_148": [
+"Direction",
+"Apartment"
+],
+"objnav_00565-xc2kFoo9nbw_151": [
+"Base",
+"House"
+],
+"objnav_00582-TYDavTf8oyy_154": [
+"Direction",
+"House"
+],
+"objnav_00591-JptJPosx1Z6_156": [
+"Base",
+"Apartment"
+],
+"objnav_00593-m17UDpW3tHm_159": [
+"Base",
+"Apartment"
+],
+"objnav_00594-1sPp3Wz8TCB_163": [
+"Base",
+"Apartment"
+],
+"objnav_00594-1sPp3Wz8TCB_164": [
+"Base",
+"Apartment"
+],
+"objnav_00614-ki6Cu76pWzF_165": [
+"Direction",
+"House"
+],
+"objnav_00614-ki6Cu76pWzF_167": [
+"Direction",
+"House"
+],
+"objnav_00637-iNpfPhK1sRz_170": [
+"Base",
+"Apartment"
+],
+"objnav_00661-SSwbmq72C21_173": [
+"Direction",
+"Apartment"
+],
+"objnav_00666-GNGYKt8XrjF_174": [
+"Direction",
+"House"
+],
+"objnav_00707-XVSZJAtHKdi_176": [
+"Direction",
+"House"
+],
+"objnav_00708-eUJx9a4u63E_179": [
+"Base",
+"Apartment"
+],
+"objnav_00733-GtM3JtRvvvR_181": [
+"Direction",
+"Apartment"
+],
+"objnav_00735-ypcVfePF8TG_183": [
+"Base",
+"Apartment"
+],
+"objnav_00743-31DHHWieDMS_185": [
+"Base",
+"House"
+],
+"objnav_00748-8QtyGUUtacf_188": [
+"Base",
+"Apartment"
+],
+"objnav_00795-awcRF7AZnJu_195": [
+"Base",
+"Apartment"
+],
+"objnav_00795-awcRF7AZnJu_196": [
+"Base",
+"Apartment"
+],
+"objnav_00797-99ML7CGPqsQ_198": [
+"Base",
+"Apartment"
+],
+"objnav_17DRP5sb8fy_0": [
+"Direction",
+"Commercial"
+],
+"objnav_17DRP5sb8fy_1": [
+"Direction",
+"Commercial"
+],
+"objnav_1LXtFkjw3qL_3": [
+"Base",
+"House"
+],
+"objnav_1pXnuDYAj8r_4": [
+"Direction",
+"House"
+],
+"objnav_29hnd4uzFmX_6": [
+"Direction",
+"House"
+],
+"objnav_29hnd4uzFmX_8": [
+"Base",
+"House"
+],
+"objnav_29hnd4uzFmX_9": [
+"Direction",
+"House"
+],
+"objnav_2t7WUuJeko7_11": [
+"Direction",
+"Apartment"
+],
+"objnav_5LpN3gDmAk7_12": [
+"Relation",
+"Apartment"
+],
+"objnav_5LpN3gDmAk7_13": [
+"Base",
+"Apartment"
+],
+"objnav_5ZKStnWn8Zo_16": [
+"Direction",
+"House"
+],
+"objnav_8194nk5LbLH_18": [
+"Direction",
+"Institution"
+],
+"objnav_82sE5b5pLXE_20": [
+"Direction",
+"House"
+],
+"objnav_B6ByNegPMKs_22": [
+"Direction",
+"Institution"
+],
+"objnav_D7N2EKCX4Sj_23": [
+"Base",
+"House"
+],
+"objnav_D7N2EKCX4Sj_24": [
+"Direction",
+"House"
+],
+"objnav_EDJbREhghzL_25": [
+"Direction",
+"House"
+],
+"objnav_EDJbREhghzL_27": [
+"Direction",
+"House"
+],
+"objnav_EU6Fwq7SyZv_28": [
+"Direction",
+"House"
+],
+"objnav_GdvgFV5R1Z5_30": [
+"Direction",
+"Apartment"
+],
+"objnav_HxpKQynjfin_32": [
+"Base",
+"Commercial"
+],
+"objnav_JF19kD82Mey_33": [
+"Direction",
+"Apartment"
+],
+"objnav_JeFG25nYj2p_36": [
+"Base",
+"Apartment"
+],
+"objnav_JeFG25nYj2p_37": [
+"Direction",
+"Apartment"
+],
+"objnav_PuKPg4mmafe_41": [
+"Direction",
+"Commercial"
+],
+"objnav_RPmz2sHmrrY_43": [
+"Direction",
+"Apartment"
+],
+"objnav_TbHJrupSAjP_47": [
+"Direction",
+"House"
+],
+"objnav_UwV83HsGsw3_50": [
+"Direction",
+"Apartment"
+],
+"objnav_VLzqgDo317F_52": [
+"Base",
+"Institution"
+],
+"objnav_WYY7iVyf5p8_57": [
+"Direction",
+"Apartment"
+],
+"objnav_X7HyMhZNoso_58": [
+"Direction",
+"House"
+],
+"objnav_XcA2TqTSSAj_60": [
+"Direction",
+"House"
+],
+"objnav_XcA2TqTSSAj_61": [
+"Base",
+"House"
+],
+"objnav_XcA2TqTSSAj_62": [
+"Direction",
+"House"
+],
+"objnav_YVUC4YcDtcY_65": [
+"Direction",
+"Institution"
+],
+"objnav_YVUC4YcDtcY_66": [
+"Direction",
+"Institution"
+],
+"objnav_Z6MFQCViBuw_67": [
+"Direction",
+"Institution"
+],
+"objnav_ZMojNkEp431_68": [
+"Direction",
+"Institution"
+],
+"objnav_gYvKGZ5eRqb_74": [
+"Direction",
+"Institution"
+],
+"objnav_interior_0270_840784_1": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0270_840784_3": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0270_840784_4": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0342_840398_18": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0344_840395_20": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0344_840395_22": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0399_840130_23": [
+"Direction",
+"Institution"
+],
+"objnav_interior_0399_840130_24": [
+"Ordinal",
+"Institution"
+],
+"objnav_interior_0403_840133_26": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0405_840145_28": [
+"Extremum",
+"Institution"
+],
+"objnav_interior_0405_840145_29": [
+"Direction",
+"Institution"
+],
+"objnav_interior_0405_840145_30": [
+"Relation",
+"Institution"
+],
+"objnav_interior_0409_840098_32": [
+"Direction",
+"Commercial"
+],
+"objnav_interior_0409_840098_33": [
+"Ordinal",
+"Commercial"
+],
+"objnav_interior_0409_840098_34": [
+"Extremum",
+"Commercial"
+],
+"objnav_interior_0409_840098_35": [
+"Extremum",
+"Commercial"
+],
+"objnav_interior_0409_840098_36": [
+"Extremum",
+"Commercial"
+],
+"objnav_interior_0409_840098_37": [
+"Direction",
+"Commercial"
+],
+"objnav_interior_0409_840098_38": [
+"Direction",
+"Commercial"
+],
+"objnav_interior_0460_840546_41": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0464_840768_43": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0464_840768_45": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0470_840871_49": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0525_840837_52": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0525_840837_55": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0527_840841_58": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0531_840848_61": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0531_840848_62": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0531_840848_64": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0533_840855_65": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0533_840855_68": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0588_841009_71": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0591_841148_75": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0594_841158_80": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0594_841158_81": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0601_841162_94": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0601_841162_95": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0603_841172_98": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0654_841467_101": [
+"Extremum",
+"House"
+],
+"objnav_interior_0654_841467_102": [
+"Relation",
+"House"
+],
+"objnav_interior_0654_841467_103": [
+"Extremum",
+"House"
+],
+"objnav_interior_0654_841467_104": [
+"Relation",
+"House"
+],
+"objnav_interior_0654_841467_105": [
+"Direction",
+"House"
+],
+"objnav_interior_0654_841467_99": [
+"Direction",
+"House"
+],
+"objnav_interior_0656_841470_109": [
+"Direction",
+"House"
+],
+"objnav_interior_0656_841470_110": [
+"Extremum",
+"House"
+],
+"objnav_interior_0656_841470_111": [
+"Extremum",
+"House"
+],
+"objnav_interior_0658_841473_117": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0662_841479_124": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0666_841484_130": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0666_841484_133": [
+"Base",
+"Apartment"
+],
+"objnav_interior_0667_841485_138": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0668_841486_140": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0668_841486_142": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0668_841486_144": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0717_841554_147": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0717_841554_149": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0718_841558_151": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0718_841558_152": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0720_841560_153": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0720_841560_155": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0720_841560_156": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0723_841566_161": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0723_841566_162": [
+"Base",
+"Apartment"
+],
+"objnav_interior_0723_841566_163": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0723_841566_164": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0724_841569_165": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0724_841569_167": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0726_841575_169": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0726_841575_171": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0726_841575_172": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0726_841575_173": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0727_841576_174": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0727_841576_175": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0728_841577_178": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0728_841577_183": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0781_840320_192": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0783_840266_194": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0783_840266_197": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0784_840914_200": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0785_841229_202": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0785_841229_204": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0785_841229_205": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0785_841229_207": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0786_841232_213": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0787_841244_215": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0787_841244_216": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0788_841245_219": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0788_841245_221": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0791_840126_227": [
+"Ordinal",
+"Institution"
+],
+"objnav_interior_0791_840126_228": [
+"Direction",
+"Institution"
+],
+"objnav_interior_0791_840126_229": [
+"Direction",
+"Institution"
+],
+"objnav_interior_0791_840126_230": [
+"Direction",
+"Institution"
+],
+"objnav_interior_0791_840126_231": [
+"Direction",
+"Institution"
+],
+"objnav_interior_0792_839972_232": [
+"Direction",
+"Commercial"
+],
+"objnav_interior_0792_839972_233": [
+"Relation",
+"Commercial"
+],
+"objnav_interior_0792_839972_234": [
+"Direction",
+"Commercial"
+],
+"objnav_interior_0792_839972_235": [
+"Extremum",
+"Commercial"
+],
+"objnav_interior_0792_839972_236": [
+"Direction",
+"Commercial"
+],
+"objnav_interior_0792_839972_237": [
+"Ordinal",
+"Commercial"
+],
+"objnav_interior_0792_839972_238": [
+"Direction",
+"Commercial"
+],
+"objnav_interior_0795_840845_246": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0796_840896_251": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0847_841768_253": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0847_841768_254": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0849_841770_257": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0850_841771_259": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0851_841772_263": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0851_841772_264": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0852_841773_269": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0854_841775_273": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0854_841775_275": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0855_841776_278": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0855_841776_280": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0856_841777_285": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0856_841777_288": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0857_841779_289": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0857_841779_295": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0857_841779_296": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0859_841781_299": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0859_841781_301": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0860_841782_302": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0860_841782_304": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0861_841783_310": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0861_841783_311": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0863_841785_320": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0863_841785_321": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0863_841785_322": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0913_841624_327": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0913_841624_328": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0913_841624_329": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0915_841635_330": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0915_841635_331": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0917_840283_335": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0922_841863_340": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0922_841863_341": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0923_841869_346": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0923_841869_347": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0924_841874_350": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0924_841874_351": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0924_841874_352": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0928_841910_361": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0928_841910_362": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0928_841910_364": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0980_841921_365": [
+"Relation",
+"Apartment"
+],
+"objnav_interior_0981_841924_366": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0984_841961_370": [
+"Direction",
+"Apartment"
+],
+"objnav_interior_0986_841963_372": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0986_841963_376": [
+"Ordinal",
+"Apartment"
+],
+"objnav_interior_0986_841963_377": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0994_841985_394": [
+"Extremum",
+"Apartment"
+],
+"objnav_interior_0995_841988_397": [
+"Relation",
+"Apartment"
+],
+"objnav_jh4fc5c5qoQ_77": [
+"Base",
+"Apartment"
+],
+"objnav_jtcxE69GiFV_78": [
+"Base",
+"House"
+],
+"objnav_mJXqzFtmKg4_80": [
+"Direction",
+"House"
+],
+"objnav_pRbA3pwrgk9_86": [
+"Direction",
+"House"
+],
+"objnav_r1Q1Z4BcV1o_88": [
+"Base",
+"House"
+],
+"objnav_r47D5H71a5s_89": [
+"Direction",
+"Commercial"
+],
+"objnav_rPc6DW4iMge_90": [
+"Base",
+"House"
+],
+"objnav_rPc6DW4iMge_91": [
+"Base",
+"House"
+],
+"objnav_rqfALeAoiTq_92": [
+"Direction",
+"House"
+],
+"objnav_sT4fr6TAbpF_95": [
+"Direction",
+"House"
+],
+"objnav_sT4fr6TAbpF_97": [
+"Direction",
+"House"
+],
+"objnav_scene56_120": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene56_121": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene56_168": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene56_38": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene56_401": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene56_404": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene56_425": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene56_51": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene56_67": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene56_79": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene57_107": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene57_145": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene57_157": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene57_167": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene57_201": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene57_300": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene57_309": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene57_312": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene57_314": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene57_318": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene57_325": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene57_329": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene57_332": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene57_340": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene57_342": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene57_383": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene57_384": [
+"Extremum",
+"Outdoor"
+],
+"objnav_scene57_390": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene57_405": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene57_410": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene57_42": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene57_429": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene57_45": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene57_78": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene58_154": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene58_176": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene58_212": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene58_319": [
+"Extremum",
+"Outdoor"
+],
+"objnav_scene58_320": [
+"Extremum",
+"Outdoor"
+],
+"objnav_scene58_374": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene58_389": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene58_415": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene58_419": [
+"Base",
+"Outdoor"
+],
+"objnav_scene58_95": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene58_98": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene59_109": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene59_119": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene59_142": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene59_148": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene59_179": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene59_181": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene59_308": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene59_362": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene59_376": [
+"Extremum",
+"Outdoor"
+],
+"objnav_scene59_377": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene59_407": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene59_73": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene59_92": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_118": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene60_180": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_184": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_209": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene60_214": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene60_216": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_304": [
+"Base",
+"Outdoor"
+],
+"objnav_scene60_313": [
+"Extremum",
+"Outdoor"
+],
+"objnav_scene60_327": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_33": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_336": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene60_353": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene60_360": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_37": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene60_370": [
+"Extremum",
+"Outdoor"
+],
+"objnav_scene60_382": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene60_411": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene60_417": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_431": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_48": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene60_7": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene60_96": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene61_210": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene61_25": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene61_321": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene61_333": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene61_334": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene61_365": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene61_397": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene61_399": [
+"Extremum",
+"Outdoor"
+],
+"objnav_scene61_424": [
+"Extremum",
+"Outdoor"
+],
+"objnav_scene61_435": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene62_138": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene62_152": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene62_169": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene62_22": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene62_322": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene62_373": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene62_438": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene62_55": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene62_63": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene63_103": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_11": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_114": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_128": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_137": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_14": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_165": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_175": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_177": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_178": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_183": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_186": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_196": [
+"Direction",
+"Apartment"
+],
+"objnav_scene63_204": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_3": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_345": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_346": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_35": [
+"Ordinal",
+"Apartment"
+],
+"objnav_scene63_358": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_36": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_422": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_439": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_52": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_60": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_61": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_64": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_65": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_85": [
+"Relation",
+"Apartment"
+],
+"objnav_scene63_97": [
+"Base",
+"Apartment"
+],
+"objnav_scene64_101": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_106": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_124": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_163": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_193": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_344": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_354": [
+"Direction",
+"Commercial"
+],
+"objnav_scene64_372": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_416": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_49": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_58": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_80": [
+"Relation",
+"Commercial"
+],
+"objnav_scene64_83": [
+"Relation",
+"Commercial"
+],
+"objnav_scene65_127": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene65_13": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene65_131": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene65_143": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene65_171": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene65_198": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene65_199": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene65_208": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene65_215": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene65_217": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene65_307": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene65_310": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene65_366": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene65_369": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene65_379": [
+"Relation",
+"Outdoor"
+],
+"objnav_scene65_386": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene65_403": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_scene65_406": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene65_81": [
+"Direction",
+"Outdoor"
+],
+"objnav_scene65_91": [
+"Direction",
+"Outdoor"
+],
+"objnav_uNb9QFRL6hY_98": [
+"Direction",
+"House"
+],
+"objnav_v2_human_manual_00001-UVdNNRcVyV1_0": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00001-UVdNNRcVyV1_1": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00001-UVdNNRcVyV1_2": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00001-UVdNNRcVyV1_3": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00001-UVdNNRcVyV1_4": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00013-sfbj7jspYWj_5": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00013-sfbj7jspYWj_6": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00013-sfbj7jspYWj_7": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00013-sfbj7jspYWj_8": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00013-sfbj7jspYWj_9": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00018-as8Y8AYx6yW_10": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00018-as8Y8AYx6yW_11": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00018-as8Y8AYx6yW_12": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00018-as8Y8AYx6yW_13": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00018-as8Y8AYx6yW_14": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00018-as8Y8AYx6yW_15": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00018-as8Y8AYx6yW_16": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00018-as8Y8AYx6yW_17": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00037-oKFJo8jpzRW_18": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00037-oKFJo8jpzRW_19": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00037-oKFJo8jpzRW_20": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00037-oKFJo8jpzRW_21": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00037-oKFJo8jpzRW_22": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_23": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_24": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_25": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_26": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_27": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_28": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_29": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_30": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_31": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00117-2NwLiyeKcrK_32": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00123-C3ifY177Ldq_33": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00123-C3ifY177Ldq_34": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00123-C3ifY177Ldq_35": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00123-C3ifY177Ldq_36": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00123-C3ifY177Ldq_37": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00123-C3ifY177Ldq_38": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00123-C3ifY177Ldq_39": [
+"Ordinal",
+"House"
+],
+"objnav_v2_human_manual_00403-t3t9ofFLcFU_40": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00403-t3t9ofFLcFU_41": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00403-t3t9ofFLcFU_42": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00403-t3t9ofFLcFU_43": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00403-t3t9ofFLcFU_44": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_00429-UZ5rYGiwQgW_45": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_00429-UZ5rYGiwQgW_46": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_00429-UZ5rYGiwQgW_47": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_00429-UZ5rYGiwQgW_48": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_8194nk5LbLH_49": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_8194nk5LbLH_50": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_8194nk5LbLH_51": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_8194nk5LbLH_52": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_53": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_54": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_55": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_56": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_57": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_58": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_59": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_60": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_61": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_B6ByNegPMKs_62": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_63": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_64": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_65": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_66": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_67": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_68": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_69": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_70": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_71": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_PuKPg4mmafe_72": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_interior_0405_840145_73": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_interior_0405_840145_74": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_interior_0405_840145_75": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_interior_0409_840098_76": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_interior_0409_840098_77": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_interior_0409_840098_78": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_interior_0409_840098_79": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_interior_0409_840098_80": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_human_manual_interior_0791_840126_81": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_human_manual_interior_0791_840126_82": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_outdoor_batch_scene56_0": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene56_1": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene56_2": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene56_3": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene56_4": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_10": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_11": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_12": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_13": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_14": [
+"Direction",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_15": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_16": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_17": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_18": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_19": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_20": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_21": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_22": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_23": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_5": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_6": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_7": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_8": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene57_9": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene58_24": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene58_25": [
+"Direction",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene58_26": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene58_27": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene58_28": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_29": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_30": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_31": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_32": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_33": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_34": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_35": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_36": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_37": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene59_38": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene60_39": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene60_40": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene60_41": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene60_42": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene61_43": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene61_44": [
+"Direction",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene61_45": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene62_46": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene62_47": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene62_48": [
+"Relation",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene62_49": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene62_50": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene63_51": [
+"Base",
+"Apartment"
+],
+"objnav_v2_outdoor_batch_scene65_52": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene65_53": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene65_54": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene65_55": [
+"Direction",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene65_56": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene65_57": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_outdoor_batch_scene65_58": [
+"Relation",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_00001-UVdNNRcVyV1_0": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00001-UVdNNRcVyV1_1": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00001-UVdNNRcVyV1_2": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00001-UVdNNRcVyV1_3": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00001-UVdNNRcVyV1_4": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00013-sfbj7jspYWj_5": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00013-sfbj7jspYWj_6": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00013-sfbj7jspYWj_7": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00013-sfbj7jspYWj_8": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00037-oKFJo8jpzRW_9": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00083-16tymPtM7uS_10": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00083-16tymPtM7uS_11": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00083-16tymPtM7uS_12": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00083-16tymPtM7uS_13": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00105-xWvSkKiWQpC_14": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00117-2NwLiyeKcrK_15": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00117-2NwLiyeKcrK_16": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00117-2NwLiyeKcrK_17": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00117-2NwLiyeKcrK_18": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00117-2NwLiyeKcrK_19": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00117-2NwLiyeKcrK_20": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00117-2NwLiyeKcrK_21": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00117-2NwLiyeKcrK_22": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00123-C3ifY177Ldq_23": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00153-28FFMGySc6D_24": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00153-28FFMGySc6D_25": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00153-28FFMGySc6D_26": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00153-28FFMGySc6D_27": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00287-SBHLgvFTVMZ_28": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00306-Y4L8fjz2yH7_29": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00367-RHdkyzXFp1k_30": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00403-t3t9ofFLcFU_31": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00403-t3t9ofFLcFU_32": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00403-t3t9ofFLcFU_33": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00403-t3t9ofFLcFU_34": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00403-t3t9ofFLcFU_35": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00403-t3t9ofFLcFU_36": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_00429-UZ5rYGiwQgW_37": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_00429-UZ5rYGiwQgW_38": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_00429-UZ5rYGiwQgW_39": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_00429-UZ5rYGiwQgW_40": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_00505-ZwnLFNzxASM_41": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00512-WZDzPCybQvS_42": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00666-GNGYKt8XrjF_43": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00707-XVSZJAtHKdi_44": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00760-5Poh4Qz68hd_45": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_00790-qQgcM8T4hiD_46": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_17DRP5sb8fy_47": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_17DRP5sb8fy_48": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_17DRP5sb8fy_49": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_1LXtFkjw3qL_50": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_8194nk5LbLH_51": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_8194nk5LbLH_52": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_8194nk5LbLH_53": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_8194nk5LbLH_54": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_8194nk5LbLH_55": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_8194nk5LbLH_56": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_8194nk5LbLH_57": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_8194nk5LbLH_58": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_B6ByNegPMKs_59": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_B6ByNegPMKs_60": [
+"Relation",
+"Institution"
+],
+"objnav_v2_referring_indoor_B6ByNegPMKs_61": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_B6ByNegPMKs_62": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_B6ByNegPMKs_63": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_HxpKQynjfin_64": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_HxpKQynjfin_65": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_HxpKQynjfin_66": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_PuKPg4mmafe_67": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_PuKPg4mmafe_68": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_TbHJrupSAjP_69": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_VFuaQ6m2Qom_70": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_VFuaQ6m2Qom_71": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_VLzqgDo317F_72": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_VLzqgDo317F_73": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_VLzqgDo317F_74": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_VVfe2KiqLaN_75": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_Vvot9Ly1tCj_76": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_VzqfbhrpDEA_77": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_YVUC4YcDtcY_78": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_YVUC4YcDtcY_79": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_YVUC4YcDtcY_80": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_Z6MFQCViBuw_81": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_Z6MFQCViBuw_82": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_Z6MFQCViBuw_83": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_Z6MFQCViBuw_84": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_Z6MFQCViBuw_85": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_Z6MFQCViBuw_86": [
+"Relation",
+"Institution"
+],
+"objnav_v2_referring_indoor_ZMojNkEp431_87": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_ZMojNkEp431_88": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_ZMojNkEp431_89": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_ZMojNkEp431_90": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_gYvKGZ5eRqb_91": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_gYvKGZ5eRqb_92": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_gYvKGZ5eRqb_93": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_gYvKGZ5eRqb_94": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0399_840130_95": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0399_840130_96": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0399_840130_97": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0399_840130_98": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0399_840130_99": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0405_840145_100": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0405_840145_101": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0405_840145_102": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0405_840145_103": [
+"Relation",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0409_840098_104": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_interior_0409_840098_105": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_interior_0409_840098_106": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_interior_0409_840098_107": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_interior_0656_841470_108": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_interior_0791_840126_109": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0791_840126_110": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0791_840126_111": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_referring_indoor_interior_0792_839972_112": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_interior_0792_839972_113": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_interior_0792_839972_114": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_interior_0792_839972_115": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_interior_0792_839972_116": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_interior_0792_839972_117": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_jtcxE69GiFV_118": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_r1Q1Z4BcV1o_119": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_r47D5H71a5s_120": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_r47D5H71a5s_121": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_r47D5H71a5s_122": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_referring_indoor_r47D5H71a5s_123": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_r47D5H71a5s_124": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_rPc6DW4iMge_125": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_s8pcmisQ38h_126": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_sKLMLpTHeUy_127": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_indoor_scene56_128": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene56_129": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene56_130": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene57_131": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene57_132": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene57_133": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene58_134": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene58_135": [
+"Ordinal",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene58_136": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene58_137": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene60_138": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene62_139": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene64_140": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_scene64_141": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_scene64_142": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_referring_indoor_scene64_143": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_scene64_144": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_scene64_145": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_scene65_146": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene65_147": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene65_148": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_scene65_149": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_indoor_x8F5xyUWy9e_150": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_x8F5xyUWy9e_151": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_x8F5xyUWy9e_152": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_x8F5xyUWy9e_153": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_referring_indoor_yqstnuAEVhm_154": [
+"Extremum",
+"House"
+],
+"objnav_v2_referring_outdoor_scene57_0": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_outdoor_scene57_1": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_outdoor_scene58_2": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_outdoor_scene58_3": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_referring_outdoor_scene58_4": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_typed_v3_00001-UVdNNRcVyV1_0": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00001-UVdNNRcVyV1_1": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00001-UVdNNRcVyV1_2": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00013-sfbj7jspYWj_3": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00013-sfbj7jspYWj_4": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00013-sfbj7jspYWj_5": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00018-as8Y8AYx6yW_6": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00037-oKFJo8jpzRW_7": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00037-oKFJo8jpzRW_8": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00054-6BReaxZUoMg_9": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00055-HxmXPBbFCkH_10": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00078-nJTPfwbAj4S_11": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00083-16tymPtM7uS_12": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00083-16tymPtM7uS_13": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00083-16tymPtM7uS_14": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00084-CtZLhCbWFm7_15": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00104-KJxdMPgweZG_16": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00105-xWvSkKiWQpC_17": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00108-oStKKWkQ1id_18": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_19": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_20": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_21": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_22": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_23": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_24": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_25": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_26": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_27": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_28": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_29": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_30": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_31": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_32": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_33": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_34": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_35": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_36": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_37": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_38": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_39": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_00117-2NwLiyeKcrK_40": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_00123-C3ifY177Ldq_41": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00131-bZsfeA9uRk7_42": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00153-28FFMGySc6D_43": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00182-qWP3MMQM3eJ_44": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00182-qWP3MMQM3eJ_45": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00182-qWP3MMQM3eJ_46": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00182-qWP3MMQM3eJ_47": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00184-nzuiinFMXvf_48": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00184-nzuiinFMXvf_49": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00185-NjyeoK5BLx3_50": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00197-x4LVLSsYWcV_51": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00241-h6nwVLpAKQz_52": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00262-1xGrZPxG1Hz_53": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00268-mHJxL9jnCox_54": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00270-bDTsgcSK5Qr_55": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00285-QKGMrurUVbk_56": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00297-jGdNyKqGZJw_57": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00298-by8SK9u18S8_58": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00306-Y4L8fjz2yH7_59": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00306-Y4L8fjz2yH7_60": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00310-WnvnMQh4eEa_61": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00316-LqsTKpxKVP2_62": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00316-LqsTKpxKVP2_63": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00316-LqsTKpxKVP2_64": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00323-yHLr6bvWsVm_65": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00332-cWfRoQnzNiM_66": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00338-rK4jPRTUw15_67": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00351-QxfX5te1gFu_68": [
+"Base",
+"Apartment"
+],
+"objnav_v2_typed_v3_00364-tEafuWwhhwr_69": [
+"Extremum",
+"House"
+],
+"objnav_v2_typed_v3_00364-tEafuWwhhwr_70": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00364-tEafuWwhhwr_71": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00367-RHdkyzXFp1k_72": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00367-RHdkyzXFp1k_73": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00367-RHdkyzXFp1k_74": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00379-58fkJMgLopt_75": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_76": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_77": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_78": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_79": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_80": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_81": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_82": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_83": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_84": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_85": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_86": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_87": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_88": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_00403-t3t9ofFLcFU_89": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_00429-UZ5rYGiwQgW_90": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_typed_v3_00429-UZ5rYGiwQgW_91": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_00429-UZ5rYGiwQgW_92": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_00429-UZ5rYGiwQgW_93": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_00429-UZ5rYGiwQgW_94": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_00429-UZ5rYGiwQgW_95": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_00429-UZ5rYGiwQgW_96": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_00429-UZ5rYGiwQgW_97": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_00505-ZwnLFNzxASM_98": [
+"Extremum",
+"House"
+],
+"objnav_v2_typed_v3_00505-ZwnLFNzxASM_99": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00512-WZDzPCybQvS_100": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00565-xc2kFoo9nbw_101": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00565-xc2kFoo9nbw_102": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00614-ki6Cu76pWzF_103": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00614-ki6Cu76pWzF_104": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00666-GNGYKt8XrjF_105": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00743-31DHHWieDMS_106": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_00757-LVgQNuK8vtv_107": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_00760-5Poh4Qz68hd_108": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00790-qQgcM8T4hiD_109": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_00790-qQgcM8T4hiD_110": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_17DRP5sb8fy_111": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_17DRP5sb8fy_112": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_17DRP5sb8fy_113": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_17DRP5sb8fy_114": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_17DRP5sb8fy_115": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_1pXnuDYAj8r_116": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_29hnd4uzFmX_117": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_2t7WUuJeko7_118": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_5ZKStnWn8Zo_119": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_7y3sRwLe3Va_120": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_121": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_122": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_123": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_124": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_125": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_126": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_127": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_128": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_129": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_130": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_131": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_132": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_133": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_134": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_135": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_8194nk5LbLH_136": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_82sE5b5pLXE_137": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_ARNzJeq3xxb_138": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_B6ByNegPMKs_139": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_B6ByNegPMKs_140": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_B6ByNegPMKs_141": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_B6ByNegPMKs_142": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_D7N2EKCX4Sj_143": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_EDJbREhghzL_144": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_HxpKQynjfin_145": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_PuKPg4mmafe_146": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_PuKPg4mmafe_147": [
+"Ordinal",
+"Commercial"
+],
+"objnav_v2_typed_v3_SN83YJsR3w2_148": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_149": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_150": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_151": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_152": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_153": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_154": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_155": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_156": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_157": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_158": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_159": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_160": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_161": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_162": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_VLzqgDo317F_163": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_WYY7iVyf5p8_164": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_X7HyMhZNoso_165": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_XcA2TqTSSAj_166": [
+"Ordinal",
+"House"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_167": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_168": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_169": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_170": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_171": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_172": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_173": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_174": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_175": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_176": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_YVUC4YcDtcY_177": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_178": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_179": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_180": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_181": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_182": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_183": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_184": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_185": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_186": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_187": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_188": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_189": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_Z6MFQCViBuw_190": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_191": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_192": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_193": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_194": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_195": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_196": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_197": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_198": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_199": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_200": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_201": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_202": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_203": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_204": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_ZMojNkEp431_205": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_206": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_207": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_208": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_209": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_210": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_211": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_212": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_213": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_214": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_gYvKGZ5eRqb_215": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0344_840395_216": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0399_840130_217": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_218": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_219": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_220": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_221": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_222": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_223": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_224": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_225": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_226": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_227": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_228": [
+"Extremum",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_229": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_230": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_231": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_232": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_233": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0399_840130_234": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0403_840133_235": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0405_840145_236": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_237": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_238": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_239": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_240": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_241": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_242": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_243": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_244": [
+"Direction",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_245": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_246": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0405_840145_247": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0409_840098_248": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0409_840098_249": [
+"Extremum",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0409_840098_250": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0409_840098_251": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0409_840098_252": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0409_840098_253": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0409_840098_254": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0409_840098_255": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0409_840098_256": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0460_840546_257": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0466_840779_258": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0660_841475_259": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0660_841475_260": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0726_841575_261": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0791_840126_262": [
+"Base",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0791_840126_263": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0791_840126_264": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0791_840126_265": [
+"Ordinal",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0791_840126_266": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0791_840126_267": [
+"Relation",
+"Institution"
+],
+"objnav_v2_typed_v3_interior_0792_839972_268": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0792_839972_269": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0792_839972_270": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0792_839972_271": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0792_839972_272": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0792_839972_273": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_interior_0860_841782_274": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0860_841782_275": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0863_841785_276": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0924_841874_277": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0992_841977_278": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0995_841988_279": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_interior_0996_841990_280": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_kEZ7cmS4wCh_281": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_kEZ7cmS4wCh_282": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_kEZ7cmS4wCh_283": [
+"Ordinal",
+"Apartment"
+],
+"objnav_v2_typed_v3_r1Q1Z4BcV1o_284": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_285": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_286": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_287": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_288": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_289": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_290": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_291": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_292": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_293": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_294": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_r47D5H71a5s_295": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_rPc6DW4iMge_296": [
+"Extremum",
+"House"
+],
+"objnav_v2_typed_v3_rqfALeAoiTq_297": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_rqfALeAoiTq_298": [
+"Ordinal",
+"House"
+],
+"objnav_v2_typed_v3_s8pcmisQ38h_299": [
+"Ordinal",
+"House"
+],
+"objnav_v2_typed_v3_sKLMLpTHeUy_300": [
+"Ordinal",
+"House"
+],
+"objnav_v2_typed_v3_sT4fr6TAbpF_301": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_scene56_302": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene56_303": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene56_304": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene56_305": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene57_306": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene57_307": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene57_308": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene57_309": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene57_310": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene58_311": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene58_312": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene59_313": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene59_314": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene59_315": [
+"Direction",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene59_316": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene59_317": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene60_318": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene60_319": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene60_320": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene60_321": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene60_322": [
+"Direction",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene60_323": [
+"Extremum",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene61_324": [
+"Direction",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene62_325": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene62_326": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene62_327": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene64_328": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_scene64_329": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_scene65_330": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene65_331": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene65_332": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_scene65_333": [
+"Base",
+"Outdoor"
+],
+"objnav_v2_typed_v3_uNb9QFRL6hY_334": [
+"Relation",
+"House"
+],
+"objnav_v2_typed_v3_x8F5xyUWy9e_335": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_x8F5xyUWy9e_336": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_x8F5xyUWy9e_337": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_x8F5xyUWy9e_338": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_x8F5xyUWy9e_339": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_x8F5xyUWy9e_340": [
+"Base",
+"Commercial"
+],
+"objnav_v2_typed_v3_x8F5xyUWy9e_341": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_x8F5xyUWy9e_342": [
+"Direction",
+"Commercial"
+],
+"objnav_v2_typed_v3_x8F5xyUWy9e_343": [
+"Relation",
+"Commercial"
+],
+"objnav_v2_typed_v3_yqstnuAEVhm_344": [
+"Base",
+"House"
+],
+"objnav_v2_typed_v3_yqstnuAEVhm_345": [
+"Ordinal",
+"House"
+],
+"objnav_x8F5xyUWy9e_99": [
+"Direction",
+"Commercial"
+],
+"objnav_yqstnuAEVhm_101": [
+"Direction",
+"House"
+],
+"objnav_zsNo4HB9uLZ_103": [
+"Direction",
+"Apartment"
+]
+},
+"source": "insight_bench/v1/episodes.jsonl",
+"source_sha256": "a1828911ce642521d4bdd38b6c23a4a7a9f2623cbced8688f88a578a6a3c55af"
+}

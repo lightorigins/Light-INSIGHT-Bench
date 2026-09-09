@@ -1,0 +1,26 @@
+{
+  "method": "StreamVLN",
+  "code": "https://github.com/InternRobotics/StreamVLN",
+  "weights": "https://huggingface.co/mengwei0427/StreamVLN_Video_qwen_1_5_r2r_rxr_envdrop_scalevln_v1_3",
+  "provenance": "published",
+  "reference": "arXiv:2608.30935",
+  "metrics": {
+    "instruction": {
+      "Base": 15.6,
+      "Direction": 9.6,
+      "Relation": 14.5,
+      "Extremum": 8.0,
+      "Ordinal": 10.7
+    },
+    "scene": {
+      "Apartment": 19.7,
+      "House": 15.7,
+      "Commercial": 12.8,
+      "Institution": 4.1,
+      "Outdoor": 5.3
+    },
+    "avg": 11.6
+  },
+  "torch": "2.1.2",
+  "python": "3.9"
+}

@@ -1,0 +1,125 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "insight-bench"
+version = "0.2.0"
+description = "INSIGHT-Bench: object-goal navigation evaluation in NVIDIA Isaac Sim"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "INSIGHT-Bench contributors" }]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Typing :: Typed",
+]
+dependencies = [
+  "numpy>=1.24,<3",
+  "pillow>=10,<13",
+  "pydantic>=2.8,<3",
+  "requests>=2.31,<3",
+  # Backport of typing.Self for the Isaac Sim 5.1 interpreter floor.
+  "typing_extensions>=4.6; python_version < '3.11'",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build>=1.2,<2",
+  "mypy>=1.11,<2",
+  "pytest>=8.3,<10",
+  "pytest-cov>=5,<8",
+  "ruff>=0.6,<1",
+]
+
+[project.scripts]
+insight-bench = "insight_bench.cli:run_cli"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/insight_bench"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/src",
+  "/policies",
+  "/scripts",
+  "/tests",
+  "/tools",
+  "/README.md",
+  "/SCENES.md",
+  "/CHANGELOG.md",
+  "/LICENSE",
+  "/pyproject.toml",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-config --strict-markers"
+testpaths = ["tests"]
+markers = [
+  "negative: rejection and tamper-detection tests",
+]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+src = ["src", "tests", "tools"]
+# policies/ is the model side: it runs in each model's own interpreter, which
+# may be as old as Python 3.8, so it is linted against that floor separately.
+extend-exclude = ["policies"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "RUF", "SIM", "PTH"]
+
+[tool.ruff.lint.per-file-ignores]
+# Migrated verbatim from the operator harness (119-column style, py3.10-era
+# zip/pairwise idioms); style harmonization is deferred so the diff against
+# the source stays reviewable and byte-parity risk stays low.
+"src/insight_bench/vln_runtime/**" = ["B905", "E501", "F841", "RUF007", "SIM110"]
+"tests/vln_runtime/**" = ["B905", "E501", "F841", "RUF007", "SIM110"]
+
+[tool.mypy]
+# Analysis version 3.12: numpy 2.x stubs use `type` statements that cannot
+# parse under a 3.10 target. The 3.10 floor is enforced where it is real:
+# ruff target-version py310 (syntax) and the CI/test run on a 3.10 interpreter.
+python_version = "3.12"
+strict = true
+packages = ["insight_bench"]
+mypy_path = "src"
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+
+# Code migrated verbatim from the operator harness predates this repo's strict
+# typing profile. Strictness for insight_bench.vln_runtime is phased in with parity
+# tests rather than rewriting 6k migrated lines in the same commit.
+# The vln extras ship no usable stubs for strict mode.
+[[tool.mypy.overrides]]
+module = ["requests.*", "yaml.*", "PIL.*"]
+ignore_missing_imports = true
+
+# The simulator runtime stack is never pip-installed (the published Isaac Sim
+# image provides it) and ships no type stubs, so mypy can only see these names
+# inside the image. insight_bench.simulator.isaac imports them lazily, in
+# function bodies, precisely so the SDK stays importable without them.
+[[tool.mypy.overrides]]
+module = [
+  "carb.*",
+  "isaaclab.*",
+  "isaacsim.*",
+  "omni.*",
+  "pxr.*",
+  "torch.*",
+  "warp.*",
+]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "insight_bench.vln_runtime.*"
+ignore_errors = true

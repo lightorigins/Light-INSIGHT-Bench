@@ -1,0 +1,69 @@
+{
+  "$id": "https://www.lightorigins.com/schemas/insight-bench/v1/adapter-request.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "benchmark_id": {
+      "title": "Benchmark Id",
+      "type": "string"
+    },
+    "benchmark_version": {
+      "title": "Benchmark Version",
+      "type": "string"
+    },
+    "episode_id": {
+      "maxLength": 256,
+      "minLength": 1,
+      "title": "Episode Id",
+      "type": "string"
+    },
+    "inputs": {
+      "additionalProperties": true,
+      "title": "Inputs",
+      "type": "object"
+    },
+    "instruction": {
+      "minLength": 1,
+      "title": "Instruction",
+      "type": "string"
+    },
+    "request_id": {
+      "pattern": "^req-[0-9a-f]{16}$",
+      "title": "Request Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0",
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "seed": {
+      "default": 0,
+      "maximum": 4294967295,
+      "minimum": 0,
+      "title": "Seed",
+      "type": "integer"
+    },
+    "step_index": {
+      "default": 0,
+      "minimum": 0,
+      "title": "Step Index",
+      "type": "integer"
+    },
+    "task_id": {
+      "title": "Task Id",
+      "type": "string"
+    }
+  },
+  "required": [
+    "request_id",
+    "benchmark_id",
+    "benchmark_version",
+    "task_id",
+    "episode_id",
+    "instruction"
+  ],
+  "title": "AdapterRequest",
+  "type": "object"
+}

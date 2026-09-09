@@ -1,0 +1,26 @@
+{
+  "method": "TAMP-Nav",
+  "code": "https://github.com/ZJU-OmniAI/Embodied-Navigator",
+  "weights": "https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO",
+  "provenance": "published",
+  "reference": "arXiv:2608.30935",
+  "metrics": {
+    "instruction": {
+      "Base": 18.1,
+      "Direction": 14.2,
+      "Relation": 17.6,
+      "Extremum": 10.8,
+      "Ordinal": 20.8
+    },
+    "scene": {
+      "Apartment": 26.8,
+      "House": 18.5,
+      "Commercial": 15.9,
+      "Institution": 9.6,
+      "Outdoor": 8.3
+    },
+    "avg": 16.0
+  },
+  "torch": "2.6.0",
+  "python": "3.10"
+}

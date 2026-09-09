@@ -1,0 +1,21 @@
+.DS_Store
+.coverage
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.venv-dev/
+.cache/
+__pycache__/
+build/
+dist/
+*.egg-info/
+
+# Everything a user's machine fills in: model environments, upstream model code,
+# weights, benchmark data, and the output of runs. None of it belongs in git.
+/envs/
+/third_party/
+/checkpoints/
+/data/
+/runs/
+/isaac/

@@ -1,0 +1,352 @@
+{
+  "$defs": {
+    "AssetLicense": {
+      "additionalProperties": false,
+      "description": "Provenance and licence terms for one user-provided scene-asset family.\n\nPart of the published benchmark contract: whether an outside reader can\nreproduce a number at all depends on these terms, so they are typed\nmanifest data rather than README prose.",
+      "properties": {
+        "family": {
+          "title": "Family",
+          "type": "string"
+        },
+        "license": {
+          "title": "License",
+          "type": "string"
+        },
+        "notes": {
+          "default": "",
+          "title": "Notes",
+          "type": "string"
+        },
+        "obtain_url": {
+          "title": "Obtain Url",
+          "type": "string"
+        },
+        "tier": {
+          "enum": [
+            "public",
+            "eula_gated"
+          ],
+          "title": "Tier",
+          "type": "string"
+        }
+      },
+      "required": [
+        "family",
+        "tier",
+        "license",
+        "obtain_url"
+      ],
+      "title": "AssetLicense",
+      "type": "object"
+    },
+    "DatasetResource": {
+      "additionalProperties": false,
+      "properties": {
+        "availability": {
+          "enum": [
+            "bundled",
+            "user-provided",
+            "unconfigured"
+          ],
+          "title": "Availability",
+          "type": "string"
+        },
+        "format": {
+          "const": "json",
+          "default": "json",
+          "title": "Format",
+          "type": "string"
+        },
+        "notice": {
+          "default": "",
+          "title": "Notice",
+          "type": "string"
+        },
+        "path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Path"
+        },
+        "sha256": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sha256"
+        }
+      },
+      "required": [
+        "availability"
+      ],
+      "title": "DatasetResource",
+      "type": "object"
+    },
+    "LicenseDeclaration": {
+      "additionalProperties": false,
+      "properties": {
+        "notice": {
+          "title": "Notice",
+          "type": "string"
+        },
+        "spdx_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Spdx Id"
+        },
+        "status": {
+          "enum": [
+            "declared",
+            "placeholder"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "status",
+        "notice"
+      ],
+      "title": "LicenseDeclaration",
+      "type": "object"
+    },
+    "RuntimeSpec": {
+      "additionalProperties": false,
+      "properties": {
+        "model_execution": {
+          "const": "local-only",
+          "default": "local-only",
+          "title": "Model Execution",
+          "type": "string"
+        },
+        "network_access": {
+          "const": "disabled",
+          "default": "disabled",
+          "title": "Network Access",
+          "type": "string"
+        },
+        "runner": {
+          "title": "Runner",
+          "type": "string"
+        }
+      },
+      "required": [
+        "runner"
+      ],
+      "title": "RuntimeSpec",
+      "type": "object"
+    },
+    "RuntimeVariant": {
+      "additionalProperties": false,
+      "description": "One simulator runtime line a benchmark can execute on.\n\nThe manifest is the authoritative record of which lines exist, which is\nthe default, and which image digests are published; the in-code backend\ndescriptors must agree with it (pinned by a gate test).",
+      "properties": {
+        "backend_id": {
+          "title": "Backend Id",
+          "type": "string"
+        },
+        "default": {
+          "default": false,
+          "title": "Default",
+          "type": "boolean"
+        },
+        "image_digest": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Image Digest"
+        },
+        "isaac_lab": {
+          "title": "Isaac Lab",
+          "type": "string"
+        },
+        "isaac_sim": {
+          "title": "Isaac Sim",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "official",
+            "experimental"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "backend_id",
+        "status",
+        "isaac_sim",
+        "isaac_lab"
+      ],
+      "title": "RuntimeVariant",
+      "type": "object"
+    },
+    "TaskDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "input_modalities": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Input Modalities",
+          "type": "array"
+        },
+        "output_modalities": {
+          "default": [],
+          "items": {
+            "type": "string"
+          },
+          "title": "Output Modalities",
+          "type": "array"
+        },
+        "task_id": {
+          "title": "Task Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "task_id",
+        "description"
+      ],
+      "title": "TaskDefinition",
+      "type": "object"
+    }
+  },
+  "$id": "https://www.lightorigins.com/schemas/insight-bench/v1/benchmark-manifest.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Registry manifest for one immutable benchmark release.",
+  "properties": {
+    "asset_licenses": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/AssetLicense"
+      },
+      "title": "Asset Licenses",
+      "type": "array"
+    },
+    "benchmark_id": {
+      "title": "Benchmark Id",
+      "type": "string"
+    },
+    "comparability_notes": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Comparability Notes",
+      "type": "array"
+    },
+    "dataset": {
+      "$ref": "#/$defs/DatasetResource"
+    },
+    "description": {
+      "title": "Description",
+      "type": "string"
+    },
+    "license": {
+      "$ref": "#/$defs/LicenseDeclaration"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "title": "Metadata",
+      "type": "object"
+    },
+    "metrics": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Metrics",
+      "type": "array"
+    },
+    "requires_configuration": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Requires Configuration",
+      "type": "array"
+    },
+    "runnable": {
+      "title": "Runnable",
+      "type": "boolean"
+    },
+    "runtime": {
+      "$ref": "#/$defs/RuntimeSpec"
+    },
+    "runtime_variants": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/RuntimeVariant"
+      },
+      "title": "Runtime Variants",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "1.0.0",
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "tasks": {
+      "items": {
+        "$ref": "#/$defs/TaskDefinition"
+      },
+      "minItems": 1,
+      "title": "Tasks",
+      "type": "array"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "version": {
+      "title": "Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "benchmark_id",
+    "version",
+    "title",
+    "description",
+    "license",
+    "runtime",
+    "dataset",
+    "tasks",
+    "metrics",
+    "runnable"
+  ],
+  "title": "BenchmarkManifest",
+  "type": "object"
+}

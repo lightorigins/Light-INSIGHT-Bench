@@ -1,0 +1,59 @@
+name: leaderboard
+
+# Rebuilds docs/data/leaderboard.json after a submission lands on main and
+# commits the result, so the published page follows the merge without anyone
+# editing the generated file by hand.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'submissions/**'
+      - 'tools/build_leaderboard.py'
+      - 'tools/verify_submission.py'
+      - 'tools/data/episode_labels.json'
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: 're-verify every evidence pack instead of reusing unchanged digests'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leaderboard
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install the package
+        run: pip install -e .
+
+      - name: Rebuild
+        run: |
+          python3 tools/build_leaderboard.py --write \
+            --updated "$(date -u +%Y-%m-%d)" \
+            ${{ inputs.refresh && '--refresh' || '' }}
+
+      - name: Commit if it changed
+        run: |
+          if git diff --quiet -- docs/data/leaderboard.json; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add docs/data/leaderboard.json
+          git commit -m 'chore(site): rebuild the leaderboard from submissions/'
+          git push

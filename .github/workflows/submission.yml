@@ -1,0 +1,55 @@
+name: submission
+
+# The merge gate for a leaderboard submission. Green means a maintainer can
+# merge without re-running anything: the evidence pack was fetched, its digest
+# matched, the packaged verifier accepted it, and the row it earns is printed
+# in the job summary.
+
+on:
+  pull_request:
+    paths:
+      - 'submissions/**'
+      - 'tools/verify_submission.py'
+      - 'tools/build_leaderboard.py'
+      - 'tools/data/episode_labels.json'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install the package
+        run: pip install -e .
+
+      - name: List the submissions this pull request touches
+        id: changed
+        run: |
+          base="${{ github.event.pull_request.base.sha }}"
+          files="$(git diff --name-only --diff-filter=d "$base"...HEAD -- 'submissions/*.json' | tr '\n' ' ')"
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+          echo "changed: ${files:-none}"
+
+      - name: Verify each one
+        if: steps.changed.outputs.files != ''
+        run: |
+          python3 tools/verify_submission.py ${{ steps.changed.outputs.files }} | tee /tmp/rows.txt
+          {
+            echo '### Verified rows'
+            echo '```json'
+            cat /tmp/rows.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: The leaderboard must already reflect them
+        run: python3 tools/build_leaderboard.py --check

@@ -1,0 +1,255 @@
+{
+  "$defs": {
+    "AdapterAction": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "parameters": {
+          "additionalProperties": true,
+          "title": "Parameters",
+          "type": "object"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "AdapterAction",
+      "type": "object"
+    },
+    "AdapterDescriptor": {
+      "additionalProperties": false,
+      "properties": {
+        "adapter_id": {
+          "title": "Adapter Id",
+          "type": "string"
+        },
+        "deterministic": {
+          "default": false,
+          "title": "Deterministic",
+          "type": "boolean"
+        },
+        "metadata": {
+          "additionalProperties": true,
+          "title": "Metadata",
+          "type": "object"
+        },
+        "model_id": {
+          "title": "Model Id",
+          "type": "string"
+        },
+        "protocol_version": {
+          "const": "1.0.0",
+          "default": "1.0.0",
+          "title": "Protocol Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "adapter_id",
+        "model_id"
+      ],
+      "title": "AdapterDescriptor",
+      "type": "object"
+    },
+    "AdapterResponse": {
+      "additionalProperties": false,
+      "properties": {
+        "actions": {
+          "default": [],
+          "items": {
+            "$ref": "#/$defs/AdapterAction"
+          },
+          "title": "Actions",
+          "type": "array"
+        },
+        "adapter": {
+          "$ref": "#/$defs/AdapterDescriptor"
+        },
+        "error": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Error"
+        },
+        "metadata": {
+          "additionalProperties": true,
+          "title": "Metadata",
+          "type": "object"
+        },
+        "output": {
+          "default": "",
+          "title": "Output",
+          "type": "string"
+        },
+        "request_id": {
+          "pattern": "^req-[0-9a-f]{16}$",
+          "title": "Request Id",
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0.0",
+          "default": "1.0.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "success",
+            "error"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "request_id",
+        "adapter",
+        "status"
+      ],
+      "title": "AdapterResponse",
+      "type": "object"
+    },
+    "EpisodeRunResult": {
+      "additionalProperties": false,
+      "properties": {
+        "episode_id": {
+          "title": "Episode Id",
+          "type": "string"
+        },
+        "error": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Error"
+        },
+        "metrics": {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "title": "Metrics",
+          "type": "object"
+        },
+        "response": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/AdapterResponse"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "status": {
+          "enum": [
+            "passed",
+            "failed",
+            "error"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "task_id": {
+          "title": "Task Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "episode_id",
+        "task_id",
+        "status"
+      ],
+      "title": "EpisodeRunResult",
+      "type": "object"
+    }
+  },
+  "$id": "https://openvln.org/schemas/v1/run-result.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "adapter": {
+      "$ref": "#/$defs/AdapterDescriptor"
+    },
+    "benchmark_id": {
+      "title": "Benchmark Id",
+      "type": "string"
+    },
+    "benchmark_version": {
+      "title": "Benchmark Version",
+      "type": "string"
+    },
+    "episodes": {
+      "items": {
+        "$ref": "#/$defs/EpisodeRunResult"
+      },
+      "minItems": 1,
+      "title": "Episodes",
+      "type": "array"
+    },
+    "metrics": {
+      "additionalProperties": {
+        "type": "number"
+      },
+      "title": "Metrics",
+      "type": "object"
+    },
+    "run_fingerprint": {
+      "title": "Run Fingerprint",
+      "type": "string"
+    },
+    "run_id": {
+      "pattern": "^run-[0-9a-f]{16}$",
+      "title": "Run Id",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0",
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "seed": {
+      "maximum": 4294967295,
+      "minimum": 0,
+      "title": "Seed",
+      "type": "integer"
+    },
+    "status": {
+      "enum": [
+        "completed",
+        "partial",
+        "failed"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "run_id",
+    "run_fingerprint",
+    "benchmark_id",
+    "benchmark_version",
+    "adapter",
+    "seed",
+    "status",
+    "episodes",
+    "metrics"
+  ],
+  "title": "RunResult",
+  "type": "object"
+}

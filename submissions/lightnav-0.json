@@ -1,0 +1,24 @@
+{
+  "method": "LightNav-0",
+  "code": "https://github.com/lightorigins/LightNav-0",
+  "weights": "https://huggingface.co/LightOriginsHQ/LightNav-0",
+  "provenance": "published",
+  "reference": "arXiv:2608.30935",
+  "metrics": {
+    "instruction": {
+      "Base": 45.1,
+      "Direction": 57.7,
+      "Relation": 37.8,
+      "Extremum": 37.2,
+      "Ordinal": 38.2
+    },
+    "scene": {
+      "Apartment": 61.1,
+      "House": 50.5,
+      "Commercial": 42.1,
+      "Institution": 29.2,
+      "Outdoor": 34.2
+    },
+    "avg": 43.7
+  }
+}

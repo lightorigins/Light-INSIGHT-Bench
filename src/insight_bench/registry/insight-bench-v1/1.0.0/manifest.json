@@ -1,0 +1,112 @@
+{
+  "asset_licenses": [
+    {
+      "family": "habitat_gs",
+      "license": "Habitat-GS scene licence: the upstream dataset card states Apache-2.0 (read 2026-09-02, verify against the release itself); attribution to the Habitat-GS authors is required.",
+      "notes": "Converted 3DGS scenes ship inside the published episode package under scenes/habitat_gs/<scene_id>/. Entry points are <scene_id>.usd and <scene_id>_zup.usda, both stubs referencing <scene_id>_final.usdz.",
+      "obtain_url": "https://huggingface.co/datasets/RukawaY/gs_scenes",
+      "tier": "public"
+    },
+    {
+      "family": "hm3d",
+      "license": "Matterport End User License Agreement for Academic Use of Model Data (academic, non-commercial; an access request is required).",
+      "notes": "Scene ids are the HM3D v0.2 folder names <5-digit index>-<scene hash>; the converted stage is hm3d/<scene_id>/<scene hash>.usd under the scene root.",
+      "obtain_url": "https://matterport.com/habitat-matterport-3d-research-dataset",
+      "tier": "eula_gated"
+    },
+    {
+      "family": "interiorgs",
+      "license": "InteriorGS Terms of Use (gated); the SAGE-3D InteriorGS USDZ release is CC BY-NC 4.0, non-commercial.",
+      "notes": "Scene ids are interior_<4-digit index>_<6-digit scene number>; the converted stage is interiorgs/<scene_id>/<scene_id>_zup.usda under the scene root.",
+      "obtain_url": "https://huggingface.co/datasets/spatialverse/InteriorGS",
+      "tier": "eula_gated"
+    },
+    {
+      "family": "mp3d",
+      "license": "Matterport3D Terms of Use (non-commercial research; signed terms of use required before download).",
+      "notes": "Scene ids are Matterport3D scan ids; the converted stage is mp3d/<scene_id>/<scene_id>.usd under the scene root.",
+      "obtain_url": "https://niessner.github.io/Matterport/",
+      "tier": "eula_gated"
+    }
+  ],
+  "benchmark_id": "insight-bench-v1",
+  "comparability_notes": [
+    "Comparable only across runs on the isaac-5.1 official backend at this suite's declared rig: 480x270 RGB, 1.0 m eye height, HFOV 120 deg, 0.05-200 m clip range, 300-step budget. That rig is what this coordinate is measured at going forward, not a replay of the rigs the constituent episode sets were first scored at: the outdoor Gaussian-splat sets ran at 300 steps with a 200 m far plane, the indoor sets at 200 steps with a 100 m far plane. Widening the far plane is a no-op indoors (nothing indoors is beyond 100 m), but the 200-to-300 step change is not calibrated indoors, so a run of this coordinate is not expected to reproduce previously published indoor figures.",
+    "One process, one order: the runner renders the mesh scene families (HM3D, MP3D) before the Gaussian-splat ones (InteriorGS, Habitat-GS), and that order is part of the measurement. Loading a Gaussian-splat stage leaves the renderer in a different state that persists for the life of the process -- measured on the reference implementation, reloading one mesh scene repeatedly moves its first frame by at most 1.13/255, inserting another mesh scene by 1.18, and inserting a splat scene by 8.78, after which it stays there; the shift was worth 4-6 success-rate points over 916 indoor episodes. Clearing the stage does not undo it and no renderer setting differs across the boundary, and this CLI cannot restart itself mid-run, so the remedy here is the ordering: no mesh episode is ever rendered after a splat load. The reverse direction -- splat scenes in a process that has loaded mesh scenes -- is not measured, and is the residual difference from an implementation that starts a fresh process at every scene-family boundary.",
+    "Success uses the NavNuances LR-towards protocol: the camera ends within the episode's success radius of the object centre with the object inside a 120 deg horizontal field of view. Ending near the object while facing away is not a success.",
+    "Scored at 2.0 m indoors and 3.0 m outdoors, selected by the episode's metadata.scene_class. scene.dataset is not the discriminator: the Habitat-GS family holds indoor captures as well as outdoor ones, and reading the radius off the dataset mis-scored 51 episodes of an earlier release."
+  ],
+  "dataset": {
+    "availability": "user-provided",
+    "format": "json",
+    "notice": "Published as insight_bench/v1/episodes.jsonl (1097 JSONL records) in the INSIGHT-Bench dataset release; pass it to the runner with --episodes. Every record carries metadata.scene_class (one of Apartment, House, Commercial, Institution, Outdoor) and metadata.instr_type (one of Base, Direction, Relation, Extremum, Ordinal), and no field of the file holds non-ASCII text. Against the file the retired insight-bench-v1@0.1.0 pinned, the scene_class values are translated from Chinese onto that vocabulary and the instr_type values capitalised onto it, and the Chinese metadata.objnav.zh_vlm provenance string is dropped from the 152 records that carried it, because the English instruction translated from it is already the record's instruction field. Every scoring field is byte-identical to that file. The SHA-256 this coordinate pins is of that published file, and the file you pass is checked against it before a run starts.",
+    "path": null,
+    "sha256": "a1828911ce642521d4bdd38b6c23a4a7a9f2623cbced8688f88a578a6a3c55af"
+  },
+  "description": "1097 object-goal navigation episodes over 210 scenes from four families (HM3D, MP3D, InteriorGS, Habitat-GS), scored with the NavNuances LR-towards protocol on the isaac-5.1 simulator backend at 2.0 m indoors and 3.0 m outdoors. The episode file and the scene assets are supplied by the user: three of the four scene families are licence-gated and this distribution neither ships nor downloads them.",
+  "license": {
+    "notice": "The episode annotations are licensed CC BY 4.0. Scene assets are licensed separately by their own sources; see asset_licenses.",
+    "spdx_id": "CC-BY-4.0",
+    "status": "declared"
+  },
+  "metadata": {
+    "episode_count": 1097,
+    "primary_metric": "success-rate",
+    "simulation_assets_required": true,
+    "task_family": "insight_bench"
+  },
+  "metrics": [
+    "success-rate",
+    "success",
+    "spl",
+    "distance_to_goal",
+    "path_length",
+    "stop_step",
+    "stopped"
+  ],
+  "requires_configuration": [
+    "episode-dataset",
+    "scene-root",
+    "policy-server"
+  ],
+  "runnable": true,
+  "runtime": {
+    "model_execution": "local-only",
+    "network_access": "disabled",
+    "runner": "objnav-http-policy-v1"
+  },
+  "runtime_variants": [
+    {
+      "backend_id": "isaac-5.1",
+      "default": true,
+      "image_digest": null,
+      "isaac_lab": "2.3.0",
+      "isaac_sim": "5.1.0",
+      "status": "official"
+    },
+    {
+      "backend_id": "isaac-6.0",
+      "default": false,
+      "image_digest": null,
+      "isaac_lab": "v3.0.0-beta2.patch1",
+      "isaac_sim": "6.0.1",
+      "status": "experimental"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "tasks": [
+    {
+      "description": "Follow the instruction to the referenced object and stop within the episode's success radius of it, with the object in view.",
+      "input_modalities": [
+        "instruction",
+        "rgb"
+      ],
+      "output_modalities": [
+        "waypoint"
+      ],
+      "task_id": "objnav"
+    }
+  ],
+  "title": "INSIGHT-Bench v1",
+  "version": "1.0.0"
+}

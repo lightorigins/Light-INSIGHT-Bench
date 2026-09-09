@@ -1,0 +1,97 @@
+{
+  "$id": "https://www.lightorigins.com/schemas/insight-bench/v1/runtime-attestation.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Where and how a simulator run actually executed.\n\nPublication policy (ADR 0008, 2026-09): a run is leaderboard-eligible\nwhen it executed on an *official* backend, on Linux -- in a container or\nnatively -- and its NVIDIA driver version was actually recorded, as a\ndotted-numeric version such as ``535.216.03`` (the same rule the\nofficial-profile gate applies; a placeholder like ``unknown`` is not a\nrecorded driver). The driver version is evidence, not a floor: nothing\ncompares it against a minimum. ``image_digest`` and ``digest_locked`` are optional,\ninformational fields that gate nothing; the runtime image embeds NVIDIA\nIsaac Sim and cannot be redistributed, so no published digest exists for\na run to be locked to. Windows runs and experimental backends are\ndevelopment and debugging support and must carry ``publishable: false``;\nsubmission validation may reject formal publication on this record. The\nin-model validator enforces the necessary conditions; the check of\n``backend_id`` against the registry descriptor happens in the\nofficial-profile gate.",
+  "properties": {
+    "backend_id": {
+      "title": "Backend Id",
+      "type": "string"
+    },
+    "backend_status": {
+      "enum": [
+        "official",
+        "experimental"
+      ],
+      "title": "Backend Status",
+      "type": "string"
+    },
+    "digest_locked": {
+      "default": false,
+      "title": "Digest Locked",
+      "type": "boolean"
+    },
+    "driver_version": {
+      "default": "",
+      "title": "Driver Version",
+      "type": "string"
+    },
+    "image_digest": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Image Digest"
+    },
+    "isaac_lab_version": {
+      "default": "",
+      "title": "Isaac Lab Version",
+      "type": "string"
+    },
+    "isaac_sim_version": {
+      "default": "",
+      "title": "Isaac Sim Version",
+      "type": "string"
+    },
+    "launcher_id": {
+      "title": "Launcher Id",
+      "type": "string"
+    },
+    "os": {
+      "enum": [
+        "linux",
+        "windows"
+      ],
+      "title": "Os",
+      "type": "string"
+    },
+    "publishable": {
+      "default": false,
+      "title": "Publishable",
+      "type": "boolean"
+    },
+    "python_version": {
+      "default": "",
+      "title": "Python Version",
+      "type": "string"
+    },
+    "runtime_kind": {
+      "enum": [
+        "docker",
+        "native"
+      ],
+      "title": "Runtime Kind",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0",
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "backend_id",
+    "backend_status",
+    "launcher_id",
+    "runtime_kind",
+    "os"
+  ],
+  "title": "RuntimeAttestation",
+  "type": "object"
+}

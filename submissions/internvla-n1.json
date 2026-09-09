@@ -1,0 +1,26 @@
+{
+  "method": "InternVLA-N1",
+  "code": "https://github.com/InternRobotics/InternNav",
+  "weights": "https://huggingface.co/InternRobotics/InternVLA-N1-DualVLN",
+  "provenance": "published",
+  "reference": "arXiv:2608.30935",
+  "metrics": {
+    "instruction": {
+      "Base": 18.1,
+      "Direction": 13.0,
+      "Relation": 9.8,
+      "Extremum": 8.4,
+      "Ordinal": 7.9
+    },
+    "scene": {
+      "Apartment": 12.1,
+      "House": 19.0,
+      "Commercial": 12.3,
+      "Institution": 7.8,
+      "Outdoor": 7.5
+    },
+    "avg": 11.7
+  },
+  "torch": "2.6.0",
+  "python": "3.9"
+}
