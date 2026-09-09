@@ -7,7 +7,7 @@
   "metric": "success rate (%)",
   "reference": "LightNav-0",
   "note": "Published measurement. Success rate over the full 1,097-episode split, grouped by instruction type and by scene class.",
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "instruction_types": [
     "Base",
     "Direction",
