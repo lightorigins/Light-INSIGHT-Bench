@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Leaderboard](https://img.shields.io/badge/Leaderboard-2b7489?style=flat)](https://lightorigins.github.io/light-insight-bench/)
+![Leaderboard](https://img.shields.io/badge/Leaderboard-coming%20soon-lightgrey?style=flat)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-INSIGHT--Bench-yellow.svg)](https://huggingface.co/datasets/LightOriginsHQ/light-insight-bench)
 [![arXiv](https://img.shields.io/badge/arXiv-2608.30935-b31b1b.svg)](https://arxiv.org/abs/2608.30935)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
@@ -17,8 +17,7 @@ that turns a run into a submission.
 ## 🏡 About
 
 1,097 episodes in 210 held-out scenes. Every episode carries two labels, fixed when it is built, and together they turn
-one success rate into a diagnosis. The reasoning behind the design is in
-[Rethinking navigation evaluation](https://www.lightorigins.com/blog/lightnav-0).
+one success rate into a diagnosis.
 
 <div align="center">
 <img src="assets/insight-taxonomy-scene.svg" alt="The five scene classes: Apartment, House, Commercial, Institution, Outdoor" width="95%"/>
@@ -139,6 +138,25 @@ redistribution. **The other 200 scenes you obtain and convert yourself**, under 
 | **Total** | **210** | | |
 
 [SCENES.md](SCENES.md) lists every scene by id, under the scene class it is labelled with and the source it comes from.
+
+**HM3D and MP3D ship a mesh, not a USD stage, so you convert them.** That part is an ordinary, well-solved job and we
+do not have a recipe to add to it: Omniverse's asset converter reads both formats, and so do Blender and the usual
+glTF↔USD tools.
+
+A stage is right for this benchmark when it is Z-up, `metersPerUnit` 1.0, has a `defaultPrim`, keeps its textures beside
+it, and carries polygons for the floor and wall queries. **Check it rather than assume it** — the episode package ships
+[`scripts/verify_scene.py`](https://huggingface.co/datasets/LightOriginsHQ/light-insight-bench/blob/main/scripts/verify_scene.py) for exactly this:
+
+```bash
+pip install usd-core      # or run it with $ISAACLAB_DIR/isaaclab.sh -p
+python3 scripts/verify_scene.py scenes/mp3d/<scan>/<scan>.usd --episodes insight_bench/v1/episodes.jsonl
+```
+
+It checks each of those properties and then the one they cannot stand in for: **that this scene's own episode start
+poses land inside its geometry**. A stage can satisfy every property and still sit in the wrong place, and that is the
+failure that quietly costs you a score rather than a crash. Run it on one scene before converting two hundred. If it
+fails and you want something to compare against, ours came from HM3D's `.glb` and from the `.obj` inside MP3D's
+`matterport_mesh/` — not Habitat's MP3D `.glb`.
 
 
 `interiorgs` has two published forms and only the
@@ -266,7 +284,7 @@ own* Python environment — its own torch, CUDA and weights — and the simulato
 ```
    your model's Python                          Isaac Lab's Python
  ┌──────────────────────┐  GET  /health     ┌────────────────────────┐
- │  policies/<name>     │ ◄──────────────── │  insight_bench run      │
+ │  policies/<name>     │ ◄──────────────── │  insight_bench run     │
  │  your torch, CUDA,   │  POST /reset      │   Isaac Sim 5.1.0      │
  │  your weights        │ ◄──────────────── │   scene + episode      │
  │                      │  POST /act        │   480x270 RGB @ 120°   │
