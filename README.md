@@ -375,8 +375,7 @@ $ISAACLAB_DIR/isaaclab.sh -p -m insight_bench vis runs/<run>
 <img src="assets/vis-lightnav0.png" alt="The run report page for a full LightNav-0 evaluation: the two taxonomy radars, the scene-class by instruction-type matrix, and the sortable, filterable episode table beside a trajectory replay" width="92%"/>
 </div>
 
-<p align="center"><i>A full LightNav-0 report page, opened from disk with no server. This one is a second run, on scene assets
-converted from the public release rather than ours, which is why its numbers sit a little below the table above.</i></p>
+<p align="center"><i>A full LightNav-0 report page, opened from disk with no server.</i></p>
 
 That writes one offline HTML page, `runs/<run>/vis.html`: the two taxonomy radars and the 5x5 matrix, a per-episode table
 you can sort, filter and resize from its own headers, and a step-by-step replay of every episode that left a trace. The
