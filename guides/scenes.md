@@ -5,7 +5,7 @@ scene classes. This file lists which. It is generated from the published episode
 `tools/make_scene_table.py`, so it cannot drift away from what a run is scored against.
 
 Scene ids are the official ids of their source dataset. The directory layout each one is expected in is in the
-Data section of the [README](README.md).
+Data section of the [README](../README.md).
 
 | Scene class | Scenes | Episodes | habitat_gs | hm3d | interiorgs | mp3d |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
