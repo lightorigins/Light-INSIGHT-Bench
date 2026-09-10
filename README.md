@@ -148,7 +148,7 @@ it, and carries polygons for the floor and wall queries. **Check it rather than 
 [`scripts/verify_scene.py`](https://huggingface.co/datasets/LightOriginsHQ/light-insight-bench/blob/main/scripts/verify_scene.py) for exactly this:
 
 ```bash
-pip install usd-core      # or run it with $ISAACLAB_DIR/isaaclab.sh -p
+pip install usd-core      # a few seconds; Isaac Lab's own interpreter cannot import USD without booting Kit
 python3 scripts/verify_scene.py scenes/mp3d/<scan>/<scan>.usd --episodes insight_bench/v1/episodes.jsonl
 ```
 
@@ -382,7 +382,7 @@ Four checks catch every version of it this SDK has actually had, and all four re
 | the model was asked | `trace.json` → `steps[].metadata.policy_inference_time_ms` | a **number** on every step the model was asked for, and `null` on a step served from a queued action. Read the values, not whether the key is there: a queue-based model legitimately reports `null` nine steps in ten, and a waypoint model that re-plans every frame reports a number every step. All `null` means nothing was ever asked |
 | it said different things | `steps[].metadata.raw_output` and `steps[].action.executed_delta` | several distinct values per episode. One value repeated is a model answering from nothing |
 | the camera moved | `run-result.json` → `metrics.path_length` | metres, not near-zero |
-| it chose to stop | `trace.json` → `termination_reason` | `policy_stop` on most episodes. All `time_out` means nothing ever decided it had arrived |
+| it chose to stop | `trace.json` → `termination_reason` | `policy_stop` on most episodes. `zero_velocity_stop` is the runner reading a near-zero answer as an arrival, which counts as stopping. All `time_out` means nothing ever decided it had arrived |
 
 `first_frame_warning` in a trace's metadata means that episode's first frame carried no detail — one bad start pose, or a
 scene that failed to load. The JSON Schemas under `src/insight_bench/schemas/v1/` define the run result, the evidence
@@ -542,12 +542,9 @@ LightNav-0 checkpoint over all 1,097 episodes of the pinned episode file on one 
 | published | 45.1 | 57.7 | 37.8 | 37.2 | 38.2 | 61.1 | 50.5 | 42.1 | 29.2 | 34.2 | 43.7 |
 | this repository | 50.2 | 55.6 | 41.7 | 34.4 | 42.1 | 65.7 | 51.9 | 39.0 | 31.7 | 34.6 | 44.9 |
 
-SPL 0.431, NE 3.91 m, mean stop step 57.3. Every cell lands within 5.1 points of the published one and the aggregate
-within 1.2, on episodes whose digest matches the pin.
+SPL 0.431, NE 3.91 m, mean stop step 57.3, on episodes whose digest matches the pin.
 
-**Expect your own number to differ by a few points.** The policy samples, so two runs on the same files do not agree:
-measured here, 11.3% of episodes flip between runs, which is about **±4 points** on a 250-episode slice and 0.2 on the
-whole suite. Read a gap of a few points as noise; go looking when it is larger, or when one slice moves alone.
+**Expect your own numbers to move.** The policy samples, so no two runs agree episode for episode.
 
 ### Evaluate your own model
 
@@ -561,7 +558,9 @@ from insight_policy import Policy, Step
 
 
 class MyPolicy(Policy):
-    model_id = "your-org/your-model"  # non-empty; it travels into the evidence
+    model_id = "your-org/your-model"  # replace both halves: it is the identity of
+                                      # every number the run produces, and a run is
+                                      # refused if this still looks like a placeholder
 
     def __init__(self, model_path: str, **options) -> None:
         super().__init__(model_path, **options)
