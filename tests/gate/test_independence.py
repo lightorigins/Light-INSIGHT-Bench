@@ -152,6 +152,34 @@ def test_the_gate_scans_the_trees_the_sdist_added() -> None:
         assert token in result.stderr, report
 
 
+def test_the_gate_scans_the_guides_the_readme_sends_readers_to() -> None:
+    """``guides/`` is public prose, and it did not inherit the gate by moving.
+
+    Two of the four reference documents were under ``docs/`` and scanned there;
+    the other two were repository-root files and were never scanned at all.
+    Collecting all four into one directory is only safe if that directory is a
+    scanned tree, because it is served from the public repository exactly as
+    the site is -- and the readme links every reader straight into it.
+    """
+    # Assembled, not spelled: this file is under a tree the gate scans.
+    token = "ve" + "pfs"
+    relative = Path("guides") / "scene-conversion.md"
+    with tempfile.TemporaryDirectory() as raw:
+        tree = Path(raw)
+        (tree / relative).parent.mkdir(parents=True)
+        (tree / relative).write_text(f"Scenes live at /{token}-internal/scenes\n", encoding="utf-8")
+        result = subprocess.run(
+            [sys.executable, str(ROOT / "tools" / "check_independence.py")],
+            cwd=tree,
+            capture_output=True,
+            text=True,
+        )
+    report = result.stdout + result.stderr
+    assert result.returncode == 1, report
+    assert str(relative) in result.stderr, report
+    assert token in result.stderr, report
+
+
 def test_the_model_side_imports_none_of_the_evaluation_stack() -> None:
     """``policies/`` is a separate program in a separate interpreter.
 

@@ -105,9 +105,9 @@ correct wrapper agrees to a correlation above 0.97; a wrong one lands near zero.
 
 The ten bundled scenes are `scene56`–`scene65` of the upstream `val` split of
 [Habitat-GS](https://zju3dv.github.io/habitat-gs/), each as a USD referencing a `.usdz`. Upstream
-publishes a Gaussian-splat `.gs.ply` and a `.navmesh`; Isaac Sim reads neither, which is why these
-ten are the ones we converted. No navmesh ships and nothing in this SDK reads one — the floor and
-wall queries build their own mesh from visual geometry.
+publishes a Gaussian-splat `.gs.ply` and a `.navmesh`; Isaac Sim reads neither. No navmesh ships
+and nothing in this SDK reads one — the floor and wall queries build their own mesh from visual
+geometry.
 
 ## Scene layout
 
