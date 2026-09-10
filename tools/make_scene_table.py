@@ -1,4 +1,4 @@
-"""Regenerate SCENES.md: which evaluation scene belongs to which scene class.
+"""Regenerate guides/scenes.md: which evaluation scene belongs to which scene class.
 
 The classes are a property of the published episode file, not of a table kept
 beside it, so this reads them straight out of the file the benchmark pins:
@@ -82,7 +82,7 @@ def render(grouped: dict[str, dict[str, list[str]]], episodes: collections.Count
         "",
         "Scene ids are the official ids of their source dataset. The directory layout each one is "
         "expected in is in the",
-        "Data section of the [README](README.md).",
+        "Data section of the [README](../README.md).",
         "",
         "| Scene class | Scenes | Episodes | " + " | ".join(DATASET_ORDER) + " |",
         "| :--- | ---: | ---: | ---: | ---: | ---: | ---: |",
@@ -121,7 +121,7 @@ def render(grouped: dict[str, dict[str, list[str]]], episodes: collections.Count
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--episodes", type=Path, required=True, help="the published episodes.jsonl")
-    parser.add_argument("--output", type=Path, default=Path("SCENES.md"))
+    parser.add_argument("--output", type=Path, default=Path("guides/scenes.md"))
     args = parser.parse_args(argv)
     grouped, episode_counts = collect(args.episodes)
     args.output.write_text(render(grouped, episode_counts), encoding="utf-8")

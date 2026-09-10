@@ -143,9 +143,10 @@ def main(argv: list[str] | None = None) -> int:
     # user actually reads and edits, and both were written by porting internal
     # code, which is exactly where an internal path gets carried across.
     # Not only what the distribution ships. The site under docs/ is served to
-    # the public, submissions/ is published beside it and .github/ is readable
-    # by anyone with the repository -- so each is a way a forbidden name reaches
-    # a reader, which is what this gate is for.
+    # the public, guides/ is the reference the readme sends every reader to,
+    # submissions/ is published beside it and .github/ is readable by anyone
+    # with the repository -- so each is a way a forbidden name reaches a reader,
+    # which is what this gate is for.
     for tree in (
         Path("src"),
         Path("policies"),
@@ -153,6 +154,7 @@ def main(argv: list[str] | None = None) -> int:
         Path("tests"),
         Path("tools"),
         Path("docs"),
+        Path("guides"),
         Path("submissions"),
         Path(".github"),
     ):
