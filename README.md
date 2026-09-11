@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Leaderboard](https://img.shields.io/badge/Leaderboard-coming%20soon-lightgrey?style=flat)
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-2b7489?style=flat)](https://lightorigins.github.io/Light-INSIGHT-Bench/)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-INSIGHT--Bench-yellow.svg)](https://huggingface.co/datasets/LightOriginsHQ/light-insight-bench)
 [![arXiv](https://img.shields.io/badge/arXiv-2608.30935-b31b1b.svg)](https://arxiv.org/abs/2608.30935)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
