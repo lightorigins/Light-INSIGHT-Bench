@@ -42,8 +42,17 @@ jobs:
 
       - name: Verify each one
         if: steps.changed.outputs.files != ''
+        # The file list reaches the shell as an environment variable, not as
+        # ${{ }} interpolation. Interpolation is textual substitution performed
+        # while the script is being written, and these names come from the
+        # branch a pull request is opened from, so a file added as
+        # `submissions/x;<command>.json` would have had <command> run here.
+        env:
+          FILES: ${{ steps.changed.outputs.files }}
         run: |
-          python3 tools/verify_submission.py ${{ steps.changed.outputs.files }} | tee /tmp/rows.txt
+          # Unquoted on purpose: FILES is a space-separated list and each name
+          # has to arrive as its own argument.
+          python3 tools/verify_submission.py $FILES | tee /tmp/rows.txt
           {
             echo '### Verified rows'
             echo '```json'
