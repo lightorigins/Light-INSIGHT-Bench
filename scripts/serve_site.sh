@@ -6,7 +6,7 @@
 # name and prints the URL to open.
 set -euo pipefail
 
-REPO_NAME="${REPO_NAME:-light-insight-bench}"
+REPO_NAME="${REPO_NAME:-Light-INSIGHT-Bench}"
 PORT="${PORT:-8000}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 MOUNT="$(mktemp -d)"
